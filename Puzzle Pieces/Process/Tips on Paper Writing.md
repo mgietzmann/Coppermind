@@ -49,6 +49,8 @@ The point here is to find any obvious holes in your understanding/posing right h
 
 One of the best places to start in a literature review is with work similar to your own. The reason for this is very simple - their introductions will likely look at lot like yours. They will know the background, they will know the justifications, and they will probably have a good idea of how to pose the research. Plus you want to quickly root out whether or not there's any need for your research or development in the first place (always better when you can just pull something off the shelf). So with that in mind, start by finding a couple of papers (and I do mean a couple) that are closest to the work you're going to try to do. 
 
+> One important consideration is what is "enough" background. For example when I was working on bycatch mitigation for the pollock fishery I went ahead and only got background on that specific bycatch issue. However what I should have done was gone ahead and understood the background behind bycatch issues in general. Why? Because that then helps me see much more clearly what I'm missing from my picture of the issue. 
+
 After you've read your first paper draft out a brief outline of how you'd want your introduction to go (i.e. main points, sub points, and flow) if you had to write one this very moment. Clearly the point is not to write an introduction just yet but this is going to make attaching each paper to what you're going to write much much easier. 
 
 Then with each new paper you read:

@@ -65,9 +65,9 @@ If we limit it to species that show up in at least 5% of hauls then we're down t
 
 Visualizations I want to include:
 - [x] Geo plot faceted across columns (environmental) that show the environmental data for a particular year
-- [ ] Table of species and general stats on each
-- [ ] Faceted distributions across the various "environmental" features
-- [ ] Couple of example species distributions (when non-zero)
+- [x] Table of species and general stats on each
+- [x] Faceted distributions across the various "environmental" features
+- [x] Couple of example species distributions (when non-zero)
 
 ### Worries About the Project
 
@@ -172,3 +172,5 @@ Let's bullet out this whole proposal before we head to dinner.
 - The largest challenge is just going to be how many different species there are even after the filtering and determining useful methods for removing outliers and the like programmatically as I won't be able to comb through each and every species on its own. 
 
 And we've got a draft!
+
+Next steps are to edit everything I've got there and then add a section explaining why this isn't actually a massive project... but I've got something I could submit if I suddenly got ill or something :) 
