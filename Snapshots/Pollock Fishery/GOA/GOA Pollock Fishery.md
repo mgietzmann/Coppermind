@@ -1,0 +1,27 @@
+#snapshots 
+
+The pollock fishery in Alaska is managed under two distinct Fishery Management Plans (FMPs) established by the North Pacific Fishery Management Council (NPFMC): one for the Gulf of Alaska (GOA) and one for the Bering Sea and Aleutian Islands (BSAI) (NPFMC, 2024). This division necessitates clear regional distinctions when discussing pollock management. Within the GOA, management is further subdivided into Western, Central, and Eastern regulatory areas. However, the Eastern area plays a limited role in trawl-caught pollock due to a prohibition on trawl gear in the Southeast Outside District, which makes up roughly half of that area. Consequently, most pollock fishing effort and management focus on the Western and Central GOA, which are combined for purposes of setting Total Allowable Catch (TAC).
+
+TAC for GOA pollock is determined annually based on stock assessments and fishery evaluation reports. These assessments incorporate data from multiple sources, including NMFS catch records, the NMFS bottom trawl survey, ADF&G trawl surveys, the Summer Acoustic-Trawl Survey, and the Shelikof Strait acoustic survey (Monnahan, 2021). Once the TAC is set, it is divided into seasonal quotas, typically split between an A season (January–March) and a B season (August–October) (NOAA, 2025). All of the pollock TAC in the GOA is currently allocated to inshore fisheries. The fishery closes once the seasonal or annual TAC is reached, creating a derby-style environment in which vessels race to harvest their share before closure (NPFMC, 2024).
+
+Participation in the fishery requires a federal groundfish license, with exceptions for vessels under 26 feet or those operating in state waters. These licenses were initially issued in 1995 based on historical landings and are specific to region, vessel size, and gear type (NPFMC, 2024). Licenses are sellable and may be revoked under certain conditions. Observer coverage, managed by NMFS, is required on most vessels, either partially or fully depending on vessel size. In addition, operators must maintain detailed logs, and salmon bycatch must be retained until scientific samples can be collected.
+
+Bycatch management is a central feature of pollock fishery regulation. Prohibited species catch (PSC) limits are enforced for Chinook salmon and halibut. Chinook limits are set at 18,316 fish for the Central GOA and 6,684 for the Western GOA, (Amendment 93) with limited provisions for reallocation of unused PSC between sectors (Amendment 103) (NPFMC, 2024). Time and area closures may also be implemented to reduce bycatch rates.
+
+The council did consider an increase in these caps in 2018 (NOAA, 2025) but decided to postpone any decisions due to concerns about the status of the Chinook salmon stocks as well as worries about interference in updates to the Pacific Salmon Treaty between the United States and Canada. 
+
+In terms of gear, the Central GOA pollock fleet primarily employs large mesh pelagic trawls. These midwater trawls feature vertical openings of around 20 fathoms and horizontal spreads of 40 fathoms, with steel doors up to 7 m² and codend mesh typically around 5 inches (NPFMC, 2012). Some trawls are equipped with sonar systems for real-time performance monitoring. In the Western GOA, smaller catcher vessels operate with more varied bottom trawls, suitable for lower horsepower and a broader range of species.
+
+The Central GOA fleet, as of 2010, included 10 catcher processors and 43 catcher vessels. Many of these vessels also participate in other fisheries and regions, including 19 vessels in the American Fisheries Act (AFA) fleet and 11 also active in the Western GOA (NPFMC, 2012). The Central fishery is centered around Kodiak Island, particularly the southern coast near Cape Chiniak, where pollock aggregate over sandy and muddy substrates at depths of 20 to 250 fathoms. The Western GOA fleet includes smaller, more flexible catcher vessels capable of switching between trawl, longline, pot, and seine gear depending on season and target species. While many vessels hail from Alaska, especially the Aleutians for the Western and Kodiak for the Central management regions, others originate out of state from Oregon and Washington, reflecting a broad geographic spread of the fleet.
+
+In 2020, the retained pollock catch from the GOA totaled 107,000 metric tons, with a first wholesale value of $70.6 million and an ex-vessel value of $27.8 million, highlighting the economic significance of this fishery to the region (Monnahan, 2021).****
+
+Monnahan, C. C., Dorn, M. W., Deary, A. L., Ferriss, B. E., Fissel, B. E., Jones, D. T., Levine, M., Rogers, L., Shotwell, S. K., Tyrell, A., & Zador, S. (2021). _Chapter 1: Assessment of the Walleye Pollock Stock in the Gulf of Alaska_.
+
+North Pacific Fishery Management Council (2012) *Fishing Fleet Profiles*
+
+North Pacific Fishery Management Council (2024) *Fishery Management Plan for the Groundfish fisheries of the Gulf of Alaska*
+
+National Oceanic and Atmospheric Association (2025) *Federal Fishery Seasons in Alaska* retrieved from https://www.fisheries.noaa.gov/alaska/resources-fishing/federal-fishery-seasons-alaska
+
+National Oceanic and Atmospheric Association (2025) *Chinook Salmon Bycatch Management in Alaska* retrieved from https://www.fisheries.noaa.gov/alaska/bycatch/chinook-salmon-bycatch-management-alaska

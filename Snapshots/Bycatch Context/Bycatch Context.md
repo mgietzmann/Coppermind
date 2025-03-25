@@ -1,6 +1,10 @@
+#snapshots
+
 **Bycatch**—the unintentional capture of non-target organisms, including juvenile fish—is a persistent issue in many fisheries (Davies, 2009; Hall, 2000). While it first gained widespread public attention due to the incidental take of charismatic megafauna (Hall, 2000), subsequent research has illuminated a wide range of concerns. These include the waste of edible protein (Hall, 2000; Zeller., 2018), conflicts between fisheries targeting different species (Lomeli, 2021; NPFMC, 2022), increased extinction risk for vulnerable species such as sea turtles (Wallace, 2013) and cetaceans (D’Agrosa, 2000), trophic disruption through the removal of predators or prey (Estes., 2011), and broader destabilization of population dynamics (Hall, 2000). As a result, considerable attention has been directed toward reducing bycatch through both policy and innovation.
 
-Mitigation strategies are highly context-dependent (Komoroske, 2015; Hall, 2000) and span a wide range of options due to the variability in problems across fisheries that target different species and due to the variability in vessel sizes, practices and gear within a single fishery (Squires, 2021). Regulatory approaches include time–area closures, limits on vessel size or trip length, and dynamic ocean management techniques that adjust spatial or temporal access in near real-time (Squires, 2021). These measures aim to reduce fishing effort in scenarios where bycatch is most likely or most harmful.
+Mitigation strategies are highly context-dependent (Komoroske, 2015; Hall, 2000) and span a wide range of options due to the variability in problems across fisheries that target different species and due to the variability in vessel sizes, practices and gear within a single fishery (Squires, 2021). 
+
+Regulatory approaches include time–area closures, limits on vessel size or trip length, and dynamic ocean management techniques that adjust spatial or temporal access in near real-time (Squires, 2021). These measures aim to reduce fishing effort in scenarios where bycatch is most likely or most harmful.
 
 At the other end of the spectrum are technological interventions that improve targeting without necessarily reducing effort. Examples include bird-scaring lines (Maree et al., 2014), turtle excluder devices (Crowder et al., 1994), the Nordmøre grid used in shrimp trawls (Graham, 2006), and acoustic deterrents like pingers (Mangel, 2013).
 
@@ -10,7 +14,7 @@ Alongside these technical and regulatory solutions are the **incentive structure
 
 However, the success of these strategies is not only a matter of design but also of perception. Their effectiveness and uptake are shaped by how fishers view the proposed measures, their trust in management authorities, and the anticipated social and economic impacts on their operations (Suuronen, 2002; Squires, 2021). Even well-crafted solutions may fail if they are perceived as burdensome, inequitable, or poorly aligned with the realities of the fishery.
 
-Taken together, bycatch mitigation strategies must straddle a wide array of issues that draw from the technical, regulatory, behavioral, and economic domains.
+Taken together, bycatch mitigation strategies must straddle a wide array of challenges spanning the technical, regulatory, behavioral, and economic domains.
 
 Davies, R. W. D., Cripps, S. J., Nickson, A., & Porter, G. (2009). Defining and estimating global marine fisheries bycatch. _Marine Policy_, _33_(4), 661–672. [https://doi.org/10.1016/j.marpol.2009.01.003](https://doi.org/10.1016/j.marpol.2009.01.003)
 

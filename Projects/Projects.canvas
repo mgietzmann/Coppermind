@@ -17,7 +17,16 @@
 		{"id":"b6070d6546af2a62","type":"text","text":"Satellite Link","x":300,"y":-260,"width":250,"height":60},
 		{"id":"785c23933d78d11b","type":"text","text":"Open Source Satellite Tag","x":300,"y":-160,"width":250,"height":60},
 		{"id":"8b119647d331212a","type":"text","text":"Juvenile Movement","x":300,"y":-41,"width":250,"height":60},
-		{"id":"89f6cf6ff1a859e0","type":"text","text":"Chinook Depth Occupancy Model v2","x":-20,"y":-280,"width":250,"height":60}
+		{"id":"89f6cf6ff1a859e0","type":"text","text":"Chinook Depth Occupancy Model v2","x":-20,"y":-280,"width":250,"height":60},
+		{"id":"a60bb4ab8a7f4351","x":-645,"y":-1140,"width":300,"height":90,"type":"text","text":"Where are they and Why? \n(Tested through prediction)"},
+		{"id":"78c06c4b2f9c1185","type":"text","text":"Where are they? \n(Instrumentation)","x":-865,"y":-980,"width":300,"height":90},
+		{"id":"66dcd7359ed02b25","type":"text","text":"Why?\n(You have to build the levels to know why)","x":-445,"y":-980,"width":300,"height":90},
+		{"id":"28c166d24f1681f3","type":"text","text":"Low Level Physics","x":-445,"y":-820,"width":200,"height":60},
+		{"id":"8d8b39ccf90b16af","type":"text","text":"Primary Production","x":-195,"y":-820,"width":200,"height":60},
+		{"id":"84e7cb64d0be8744","type":"text","text":"Feed Fish","x":45,"y":-820,"width":200,"height":60},
+		{"id":"3911e5ca5448ac04","type":"text","text":"Etc","x":285,"y":-820,"width":200,"height":60},
+		{"id":"bc87cfdc3199302e","type":"text","text":"Migration","x":45,"y":-680,"width":200,"height":60},
+		{"id":"d43f67d2a3081c78","type":"text","text":"Deterministic?","x":-300,"y":-680,"width":200,"height":60}
 	],
 	"edges":[
 		{"id":"ad5a6125dbb6afe5","fromNode":"1eadf022de953338","fromSide":"bottom","toNode":"b6070d6546af2a62","toSide":"top"},
@@ -30,6 +39,17 @@
 		{"id":"f34489550d62df74","fromNode":"fbc54a714c2f0295","fromSide":"left","toNode":"d0252bb20327acd8","toSide":"right"},
 		{"id":"8c16f600e5476cf0","fromNode":"38103220b9a18ca5","fromSide":"left","toNode":"587e19c9914f67ad","toSide":"right"},
 		{"id":"162254c7ea512dce","fromNode":"ae3264dfca29d158","fromSide":"left","toNode":"587e19c9914f67ad","toSide":"right"},
-		{"id":"10fc8c3363c387a2","fromNode":"ae3264dfca29d158","fromSide":"right","toNode":"89f6cf6ff1a859e0","toSide":"top"}
+		{"id":"10fc8c3363c387a2","fromNode":"ae3264dfca29d158","fromSide":"right","toNode":"89f6cf6ff1a859e0","toSide":"top"},
+		{"id":"cbe85cafe2593e86","fromNode":"78c06c4b2f9c1185","fromSide":"top","toNode":"a60bb4ab8a7f4351","toSide":"bottom"},
+		{"id":"9ee23d811560fc9e","fromNode":"66dcd7359ed02b25","fromSide":"top","toNode":"a60bb4ab8a7f4351","toSide":"bottom"},
+		{"id":"8f28c15383a0bce6","fromNode":"bc87cfdc3199302e","fromSide":"top","toNode":"84e7cb64d0be8744","toSide":"bottom"},
+		{"id":"e35914242c3cb297","fromNode":"bc87cfdc3199302e","fromSide":"top","toNode":"3911e5ca5448ac04","toSide":"bottom"},
+		{"id":"d5bf3e3223c58f6d","fromNode":"d43f67d2a3081c78","fromSide":"top","toNode":"8d8b39ccf90b16af","toSide":"bottom"},
+		{"id":"feffacfafd72b292","fromNode":"d43f67d2a3081c78","fromSide":"top","toNode":"28c166d24f1681f3","toSide":"bottom"},
+		{"id":"dce68cc01fa58123","fromNode":"84e7cb64d0be8744","fromSide":"top","toNode":"66dcd7359ed02b25","toSide":"bottom"},
+		{"id":"8f29c55193a3c672","fromNode":"8d8b39ccf90b16af","fromSide":"top","toNode":"66dcd7359ed02b25","toSide":"bottom"},
+		{"id":"70ef0fef8fa0f215","fromNode":"28c166d24f1681f3","fromSide":"top","toNode":"66dcd7359ed02b25","toSide":"bottom"},
+		{"id":"2a3dceeff5b377f9","fromNode":"3911e5ca5448ac04","fromSide":"top","toNode":"66dcd7359ed02b25","toSide":"bottom"},
+		{"id":"f8a0978ac9227b00","fromNode":"78c06c4b2f9c1185","fromSide":"bottom","toNode":"28c166d24f1681f3","toSide":"left"}
 	]
 }

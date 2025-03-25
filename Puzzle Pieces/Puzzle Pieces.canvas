@@ -8,9 +8,7 @@
 		{"id":"c09399d2ffd29c66","type":"text","text":"How does movement factor into your \"resilience based management\"?","x":-540,"y":-490,"width":280,"height":100},
 		{"id":"176842271ba81fa1","type":"text","text":"What kind of modeling is used for birds and mammals?","x":-820,"y":-260,"width":280,"height":80},
 		{"id":"b1f3a2405d47d963","type":"text","text":"Could my modeling be applied to them?","x":-820,"y":-120,"width":280,"height":80},
-		{"id":"bb58d84ff606ba2f","type":"text","text":"How on earth is salmon abundance done? They don't show up in ground surveys nearly at all... ","x":-860,"y":-500,"width":280,"height":140},
-		{"id":"f43a94a59134134f","type":"text","text":"Writing when done well is very much like reusable code","x":-500,"y":0,"width":250,"height":100,"color":"4"},
-		{"id":"0a6267c9bd598d7f","type":"text","text":"Does a need for speed wreck us? (finely carved furniture)","x":-805,"y":50,"width":250,"height":120,"color":"4"}
+		{"id":"bb58d84ff606ba2f","type":"text","text":"How on earth is salmon abundance done? They don't show up in ground surveys nearly at all... ","x":-860,"y":-500,"width":280,"height":140}
 	],
 	"edges":[
 		{"id":"2f371c0c052c201f","fromNode":"176842271ba81fa1","fromSide":"bottom","toNode":"b1f3a2405d47d963","toSide":"top"}
