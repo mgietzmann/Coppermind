@@ -1,0 +1,27 @@
+- Why do depth modeling?
+	- Limitations of CPUE and fisheries dependent data for population assessments of any kind (Brill, 2001)
+	- Although longline fishing gear does not depend on seeing fish at the surface, the gear is deployed such that hooks target specific depths (Brill, 2001)
+	- on photographic film or as a digital data stream from laser- and radar-based detection systems (LIDAR and SLAR; Lyne et al. 1992; Oliver et al. 1994; Hunter and Churnside 1995). All these systems have limited ability to detect fish at depth, so abundance estimates will depend on fish depth distribution as well as true abundance. (Brill, 2001)
+	- Numerous investigators have tried to delineate the habitat requirements of various tuna and billfish species by correlating catch statistics with oceanographic conditions averaged over time and space (Brill, 2001)
+	- Moreover, using catch statistics to determine the effects of environmental conditions on catch statistics (i.e., calculate a measure of gear vulnerability), without an independent estimate of abundance, can easily result in tautology. (Brill, 2001)
+- What data to use?
+	- We argue, as have others previously (e.g., Hunter et al. 1986), that measuring and ultimately predicting the effects of oceanographic conditions on the behaviors of tunas and billfishes requires direct observation. We contend that this can be done most cost effectively by equipping fish with either acoustic telemetry transmitters or archival (i.e., electronic data recording) tags. (Brill, 2001)
+	- Ultrasonic telemetry (Smith, 2015)
+	- Satellite data can provide environmental data for correlation with fish movement records obtained from archival tags, but as we will show, the types of satellite data employed must be carefully chosen. (Brill, 2001)
+- Features
+	- Yet the thermocline-oxycline must be shallow enough so that schools do not escape under the bottom of the net before pursing (Brill, 2001)
+	- Day vs Night (Brill, 2001) (Arostegui, 2017) (Smith, 2015)
+	- Temperature (Brill, 2001) (but in a limiting sense) (Smith, 2015)
+	- Seasons (Arostegui, 2017) (Smith, 2015)
+	- DVM (diel vertical migration (DVM) vs diel activity pattern (DAP)) (Arostegui, 2017) (Smith, 2015)
+	- Dissolved Oxygen (Smith, 2015)
+	- Chl a (Smith, 2015)
+	- Salinity (Smith, 2015)
+- Targets
+	- Depth bins (Arostegui, 2017)
+- How are they being used?
+	- We argue, as have others previously (e.g., Hunter et al. 1986), that measuring and ultimately predicting the effects of oceanographic conditions on the behaviors of tunas and billfishes requires direct observation. We contend that this can be done most cost effectively by equipping fish with either acoustic telemetry transmitters or archival (i.e., electronic data recording) tags. (Brill, 2001)
+- Models/Methods
+	- Hypothesis testing under a specific probabilistic model (Arostegui, 2017) (the results of this model also allowed for sense of categorization of depth bin uncertainty)
+	- Descriptive (Brill, 2001)
+	- Taking means and trying to predict them (Smith, 2015). This study used linear mixed effects models (so this was predictive)

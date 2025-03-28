@@ -1,0 +1,21 @@
+*The driving question here is what kinds of tag technologies exist and how are they built?*
+
+- Lots of different size classes that get tagged
+	- "Tagged animals can span sizes from the blue whale (Balaenoptera musculus) [6], Atlantic bluefin tuna (Thunnus thynnus) [7], and lemon shark (Negaprion brevirostris) [8] to significantly smaller ones, such as the American eel (Anguilla rostrata) [9], juvenile Pacific salmon (Oncorhynchus spp.) [10], and white sturgeon (Acipenser transmontanus) [11]" (Yang, 2022)
+- What's onboard the tags?
+	- "have become equipped with sensors, including thermometers, barometers, accelerometers, magnetometers, gyroscopes, and physiological sensors" (Yang, 2022)
+	- "For instance, to date, no commercial device can simultaneously monitor the electrocardiogram (ECG) and electromyogram (EMG), the two primarily studied physiological parameters of aquatic animals" (Yang, 2022)
+- Use Cases:
+	- "Tagged animals could also serve as mobile environmental sensing platforms in the Internet of Things" (Yang, 2022)
+- There's a tradeoff between postprocessing and processing at the edge
+	- "In addition, the postprocessing algorithms on the receiver side may malfunction, even if only a small portion of the raw data fails to be received correctly [24]. Data processing at the signal edge [25] is highly desirable to extract the key physiological parameters from the continuous time-domain waveform for real-time sensor data transmission, and to reduce the onboard data storage use" (Yang, 2022)
+- Examples:
+	- Lab-on-a-Fish (Yang, 2022)
+		- "This is the world’s first biotelemetric tag that can simultaneously measure ECG and EMG, as well as the physical behavior (acceleration and gyration) and ambient environment (temperature, pressure, and magnetic field) of the host. The Lab-on-a-Fish features a miniaturized form, weighing only 0.8 g in water and sized 5.5 mm × 6.5 mm × 37 mm" (Yang, 2022)
+			- "The core of the system is a high-performance, low-power, 16-bit microcontroller unit (MCU) with a broad peripheral feature set." (Yang, 2022)
+			- "It exploits an in-house developed lithium metal/carbon monofluoride (Li/CFx)microbattery with unprecedented battery performance [31]" (Yang, 2022)
+			- "An infrared (IR) sensor is used as the configuration interface using an IR “blaster” for efficient device programming and activation." (Yang, 2022)
+			- "The data transmission and storage module employs a rationally designed lead zirconate titanate (PZT) piezoelectric transducer and custom-designed driving circuitry for longrange (up to 400 m) underwater wireless communication. This module also holds an 8-MB nonvolatile flash memory with 20-year data retention to store raw sensor data for further advanced signal processing after the Lab-on-a-Fish is recovered." (Yang, 2022)
+			- They have a 60 day service lift (Yang, 2022)
+			- They use epoxy to waterproof the device (Yang, 2022)
+			- "The Lab-on-a-Fish also integrates temperature, pressure, and magnetic field sensors for real-time environmental monitoring." (Yang, 2022)

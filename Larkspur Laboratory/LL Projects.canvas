@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"fda6bbd06e197caf","type":"text","text":"Chinook Depth Model v1","x":-600,"y":-280,"width":250,"height":60,"color":"4"},
+		{"id":"ff04a43fbb2449a5","type":"text","text":"Archival Tag v1\nOpen Source","x":-260,"y":-280,"width":250,"height":60,"color":"5"},
+		{"id":"7a942b21b21a08e7","type":"text","text":"Satellite Tag v1","x":-260,"y":-180,"width":250,"height":60,"color":"1"},
+		{"id":"86220bd85a45c120","type":"text","text":"Juvenile Satellite Tag","x":-260,"y":-80,"width":250,"height":60},
+		{"id":"b3bc55b258002fdd","type":"text","text":"Freshwater Tag","x":40,"y":-80,"width":250,"height":60},
+		{"id":"024ab5cd8945512e","type":"text","text":"High Geo Resolution Tag","x":40,"y":-280,"width":250,"height":60},
+		{"id":"8b9a17010cc04de4","type":"text","text":"Tags","x":-135,"y":-380,"width":250,"height":60,"color":"6"},
+		{"id":"b8482c92e9ba2452","type":"text","text":"Forage Model","x":-880,"y":-280,"width":250,"height":60},
+		{"id":"6e14def894b2ab6c","type":"text","text":"Behavioral Models","x":-755,"y":-380,"width":250,"height":60,"color":"6"},
+		{"id":"a372e1c1baddcb3f","type":"text","text":"Tide Data for Modeling","x":-1280,"y":-280,"width":250,"height":60},
+		{"id":"28edcda3207e7823","type":"text","text":"Weather/Weather Front Data for Modeling","x":-1580,"y":-280,"width":250,"height":60},
+		{"id":"b7951ef83b382d35","type":"text","text":"Context","x":-1420,"y":-380,"width":250,"height":60,"color":"6"},
+		{"id":"85049e6235f17535","type":"text","text":"Chinook Bycatch Avoidance","x":-475,"y":-680,"width":250,"height":60},
+		{"id":"40e94f7338a032c6","type":"text","text":"Full Lifecycle Movement Model","x":-600,"y":-80,"width":250,"height":60},
+		{"id":"6db1fca40d4a0efc","type":"text","text":"Be creative in resourcing each project as an individual","x":-940,"y":-580,"width":260,"height":60,"color":"2"},
+		{"id":"b8dcd3ac5f4bb390","type":"text","text":"You can do a project at a time. Find others for the other projects","x":-635,"y":-550,"width":285,"height":90,"color":"2"}
+	],
+	"edges":[
+		{"id":"1b2e823329e276ce","fromNode":"ff04a43fbb2449a5","fromSide":"bottom","toNode":"7a942b21b21a08e7","toSide":"top"},
+		{"id":"6ab2493c223f4f25","fromNode":"7a942b21b21a08e7","fromSide":"bottom","toNode":"86220bd85a45c120","toSide":"top"},
+		{"id":"57874708ef92c453","fromNode":"7a942b21b21a08e7","fromSide":"right","toNode":"b3bc55b258002fdd","toSide":"top"},
+		{"id":"5d0b40e0f3b87900","fromNode":"7a942b21b21a08e7","fromSide":"right","toNode":"024ab5cd8945512e","toSide":"bottom"},
+		{"id":"f125d919d2f7a322","fromNode":"86220bd85a45c120","fromSide":"left","toNode":"40e94f7338a032c6","toSide":"right"}
+	]
+}

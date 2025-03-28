@@ -22,9 +22,10 @@ What we'll end up with:
 
 > _What you've got so far:_ a vague idea.
 
-Before you begin writing, you need to establish a clear research question. Ask yourself:
+Before you begin writing, you need to establish a clear research question. A research question should be posed as a single overreaching goal and then a series of objectives you intend to meet in order to satisfy the overarching goal. So before getting anything else, draft up that goal and the objectives as you understand them right now. 
 
-- What specific problem or question am I trying to address?
+Then to begin working out what you'll need in your introduction, ask yourself:
+
 - Why is this outcome important?
 - To whom is it important? 
 - Is this already answered by other work out there?
