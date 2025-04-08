@@ -9,7 +9,9 @@
 		{"id":"176842271ba81fa1","type":"text","text":"What kind of modeling is used for birds and mammals?","x":-820,"y":-260,"width":280,"height":80},
 		{"id":"b1f3a2405d47d963","type":"text","text":"Could my modeling be applied to them?","x":-820,"y":-120,"width":280,"height":80},
 		{"id":"bb58d84ff606ba2f","type":"text","text":"How on earth is salmon abundance done? They don't show up in ground surveys nearly at all... ","x":-860,"y":-500,"width":280,"height":140},
-		{"id":"dc56807b2699e629","x":-220,"y":-600,"width":330,"height":140,"color":"4","type":"text","text":"I've been getting distracted. Why try to create a framework that captures all of this instead of just trying to figure out what the pieces are and then creatively tackle them bit by bit. "}
+		{"id":"53b0129b6e988b29","type":"text","text":"Could you make a business out of DOM? There's a lot of data management and sharing that needs to happen. ","x":-430,"y":0,"width":350,"height":160},
+		{"id":"3e886dcbbb926997","x":-197,"y":416,"width":250,"height":60,"type":"text","text":"Genetics? Where does it fit in?"},
+		{"id":"d9a03bc0a901ba19","x":-333,"y":596,"width":250,"height":60,"type":"text","text":"Where does stable isotope analysis fit in?"}
 	],
 	"edges":[
 		{"id":"2f371c0c052c201f","fromNode":"176842271ba81fa1","fromSide":"bottom","toNode":"b1f3a2405d47d963","toSide":"top"}
