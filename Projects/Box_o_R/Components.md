@@ -1,0 +1,11 @@
+- [x] How to run R as a script file
+- [x] How to pass args to said script file
+- [x] How to box R in docker and allow for dependency building
+- [x] Need to be able to pick different sizes
+- [x] Determine how I'll lift the file system 
+- [x] Figure out how tagging works 
+- [x] Create the job
+- [x] Create the bucket
+- [ ] Work out permissions
+- [x] Give it all a go!
+- [ ] Also need to make instructions for signing up

@@ -21,8 +21,14 @@ Good objectives are:
 - **Concrete** (you will be able to check them off as complete)
 - **Convincing** (each one clearly supports the goal)
 - **Well-scoped** (not too broad, not too narrow)
+- **Show, Don't Tell**
 
 It's helpful at this point to play devil's advocate and look for the holes in the argument you're going to be building through these objectives. 
+
+On the *Show Don't Tell* front it's important to recognize that there are two ways to try and persuade someone of something - you can try explaining or you can try showing. Showing has two major advantages and should be what you go for every time if you can:
+1. **No Mental Gymnastics** - if I explain to you why a specific, say fuel, will make your engine run more efficiently, you have to follow along in a whole bunch of chemistry, physics, and mechanics to understand why. If instead I just run the engine with an without the fuel and show you there's no mental jumping through hoops for you, the reader, to do. This can be the difference between someone having absolutely no idea what I'm talking about and it being clear as day.
+2. **The Proof is in the Pudding** - even if you follow me through the mental gymnastics you may not be convinced because you may think I've left something out or something I think will be important isn't. Well once again, if I show you it works, there can be no doubt. 
+Always show, don't tell. 
 
 ---
 
