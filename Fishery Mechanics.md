@@ -5,3 +5,7 @@ Fisheries, bizarrely, are run like the dishwasher. We patch things when they bre
 The truth is, most fisheries lack folks who know a fishery inside and out, like a cardiologist knows the heart. We need to treat fisheries like any other vital system: something worth understanding deeply, maintaining carefully, and trusting to those who know how.
 
 We need fishery mechanics.
+
+P.S.
+
+A question that often comes up is - what use will this information be? Hard to tell when the fishery is nothing but unknowns. A bit aspect of the value of deep expertise is having the knowledge and perspective required to sort out what matters and what doesn’t - but you need a comprehensive view before you can get there. Unknown unknowns are the bane of any activity… 

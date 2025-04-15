@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"3fa0a32e5472b625","x":-880,"y":-80,"width":280,"height":100,"type":"text","text":"**Knowledge:** a quantifiable perspective on the world that adds to the overall picture"},
+		{"id":"dcfdd019ce75626a","x":-860,"y":120,"width":240,"height":80,"type":"text","text":"**Models:** take data and produce knowledge"},
+		{"id":"96b4037a4bc06865","type":"text","text":"**Data:** the information from which knowledge is built","x":-870,"y":300,"width":260,"height":80},
+		{"id":"c2f395eb9025de60","type":"text","text":"**Techniques:** take different kinds of knowledge and turns it into actions.","x":-905,"y":-250,"width":330,"height":75},
+		{"id":"1d543873e378b114","type":"text","text":"**Actions:** alter the world we live in.","x":-905,"y":-420,"width":330,"height":75},
+		{"id":"417316c3cef832a5","type":"text","text":"**Instrumentation:** creates data","x":-865,"y":460,"width":250,"height":80},
+		{"id":"03306b610a7449eb","type":"text","text":"**Monitoring:** observes the consequences of our actions","x":-1360,"y":-67,"width":330,"height":75},
+		{"id":"2b3580e204cb48f7","x":-480,"y":109,"width":324,"height":111,"color":"6","type":"text","text":"**A New Looking Glass**: new model(s) that produce a new kind of knowledge or changes how we create knowledge"},
+		{"id":"008d130b0ef9940f","type":"text","text":"**Addition to Our Comprehension**: Using known models on new data to improve comprehension.","x":-480,"y":-80,"width":324,"height":102,"color":"5"},
+		{"id":"e59dd2539bd5c262","type":"text","text":"**Upgraded Instrumentation**: something that allows us to observe something new or observe better","x":-480,"y":445,"width":324,"height":111,"color":"5"},
+		{"id":"8d06dcfc80dc8baf","type":"text","text":"**Adding to the Toolbox**: proposes new ways of positively affecting our world and maps it back to the knowledge required","x":-480,"y":-268,"width":324,"height":111,"color":"5"},
+		{"id":"6c2c365b51662a81","type":"text","text":"**Taking Action**: providing the blueprints for using one (or more) of the tools (hopefully) for good","x":-480,"y":-438,"width":324,"height":111,"color":"5"},
+		{"id":"e6bed28fd15895b6","type":"text","text":"**Feedback**: reporting on how our actions impacted our fishery","x":-1760,"y":-85,"width":324,"height":111,"color":"5"},
+		{"id":"50ed443846e50b8f","x":-100,"y":124,"width":391,"height":72,"type":"text","text":"Usually this pairs with some demonstration of how the knowledge could be useful"},
+		{"id":"20ea34b377478c2b","x":-443,"y":-580,"width":250,"height":60,"type":"text","text":"Are You?"},
+		{"id":"fc23f117793363ed","x":-29,"y":-29,"width":250,"height":60,"type":"text","text":"Focus of my PhD"}
+	],
+	"edges":[
+		{"id":"5dc6b5bb949fabf1","fromNode":"dcfdd019ce75626a","fromSide":"top","toNode":"3fa0a32e5472b625","toSide":"bottom"},
+		{"id":"3886e6d1ccd3ea7b","fromNode":"96b4037a4bc06865","fromSide":"top","toNode":"dcfdd019ce75626a","toSide":"bottom"},
+		{"id":"41b7fa1bc9405d25","fromNode":"3fa0a32e5472b625","fromSide":"top","toNode":"c2f395eb9025de60","toSide":"bottom"},
+		{"id":"a699916cd802bea6","fromNode":"c2f395eb9025de60","fromSide":"top","toNode":"1d543873e378b114","toSide":"bottom"},
+		{"id":"a8f67911cb0f3dd9","fromNode":"417316c3cef832a5","fromSide":"top","toNode":"96b4037a4bc06865","toSide":"bottom"},
+		{"id":"0a747661164ef297","fromNode":"1d543873e378b114","fromSide":"left","toNode":"03306b610a7449eb","toSide":"top"},
+		{"id":"1b253599d71fac9e","fromNode":"03306b610a7449eb","fromSide":"bottom","toNode":"417316c3cef832a5","toSide":"left"},
+		{"id":"877cba254c6b9f26","fromNode":"96b4037a4bc06865","fromSide":"right","toNode":"008d130b0ef9940f","toSide":"left"},
+		{"id":"4a4a7baa838eedd7","fromNode":"dcfdd019ce75626a","fromSide":"right","toNode":"008d130b0ef9940f","toSide":"left"},
+		{"id":"cf619a6c24212a74","fromNode":"96b4037a4bc06865","fromSide":"right","toNode":"2b3580e204cb48f7","toSide":"left"},
+		{"id":"57e4c11bcc8d9cbc","fromNode":"dcfdd019ce75626a","fromSide":"right","toNode":"2b3580e204cb48f7","toSide":"left"},
+		{"id":"0a2785c13c017565","fromNode":"3fa0a32e5472b625","fromSide":"right","toNode":"8d06dcfc80dc8baf","toSide":"left"},
+		{"id":"79f822a70acc5eb7","fromNode":"c2f395eb9025de60","fromSide":"right","toNode":"6c2c365b51662a81","toSide":"left"},
+		{"id":"4d942f3933a7ed43","fromNode":"fc23f117793363ed","fromSide":"left","toNode":"2b3580e204cb48f7","toSide":"top"}
+	]
+}
