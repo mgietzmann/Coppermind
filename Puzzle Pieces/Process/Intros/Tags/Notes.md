@@ -1,0 +1,70 @@
+Themes:
+
+- History
+	- Historical Progression of Tags
+- Design
+	- Sensor Types
+	- Sensor Resolution/Quality
+	- Tag Communication
+	- Lifespan and power efficiency
+	- Data Processing (onboard offboard)
+	- Data Storage
+	- Expense
+	- Associated Modeling
+	- Tag Attachment
+	- Tag Size
+	- Tag Retrieval
+- Ethics
+	- behavioral alteration
+	- device drag
+		- body mass limits
+- Software/Modeling
+	- Track Reconstruction (Movement)
+		- Strategies and Assumption
+	- Measurement Error
+		- drift, heading alignment, speed calibration, and compass
+	- Fitness proxies from sensor-derived effort
+- Integrations
+	- Genomics, endocrinology, and neurophysiology, tissue sampling
+	- Oceanography
+- Purpose
+	- Behavioral sensing
+		- Movement
+			- Need for Fine Resolution Tracking
+			- **spatial memory** and decision-making in fish
+			- Seasonal energy budgets
+	- Environmental sensing
+		- Animals can be used as mobile sensor platforms
+	- Physiological sensing
+	- Life-History Integration
+- Applications
+	- Dynamic spatial management
+	- Bycatch mitigation
+	- MPA design
+	- Stock connectivity
+- Coordination
+	- centralized, **GenBank-like telemetry data repositories**
+	- "Business Card Tags" (BCTs)
+- Governance
+
+
+## Design
+
+- Tag Design Purposes
+	- What are we trying to measure?
+	- For how long?
+	- With what accuracy?
+	- On what animal?
+- Sensor Types
+- Sensor Resolution/Quality
+- Tag Communication/Transmission Types
+- Tag Communication/Transmission Pros/Cons
+- Lifespan and power efficiency
+- Data Processing (onboard offboard)
+- Associated Modeling
+- Data Storage
+- Expense
+- Tag Attachment
+- Tag Size
+- Tag Retrieval
+- Tag Construction

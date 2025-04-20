@@ -1,0 +1,23 @@
+
+- Tag Design
+	- Purpose & Ecological Context
+	- Attachment & Tag Form Factor
+		- Attachment Method    
+		- Tag Form Factor and Hydrodynamics
+		- Behavioral and Physiological Impact
+		- Engineering for Retention and Release
+		- Scaling and Miniaturization
+	- Sensor Suite
+	- Data Storage vs. Transmission
+	- Power Budget & Lifespan
+	- Materials & Durability
+		- Biofouling Resistance
+		- Corrosion Resistance
+		- Structural Strength and Pressure Tolerance
+		- Hydrodynamics and Drag Reduction
+		- Material Compatibility with Animal Tissue
+		- Waterproofing and Enclosure Design
+		- Thermal Stability and UV Resistance
+		- Sustainable and Recyclable Materials
+	- Post-Processing & Data Interpretation
+	- Ethics, Permitting, and Animal Welfare

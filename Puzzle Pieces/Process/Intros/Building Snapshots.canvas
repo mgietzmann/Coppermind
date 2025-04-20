@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"41d13b0750ce6635","type":"text","text":"Find a terminal paper","x":-340,"y":-260,"width":250,"height":60},
+		{"id":"d8f954c643567f49","type":"text","text":"Theme1","x":-620,"y":140,"width":250,"height":60,"color":"2"},
+		{"id":"a96e2ea8054bd6c9","type":"text","text":"Theme2","x":-320,"y":140,"width":250,"height":60,"color":"2"},
+		{"id":"879811616ea42bd6","type":"text","text":"ThemeN","x":-20,"y":140,"width":250,"height":60,"color":"2"},
+		{"id":"71187f9a8b56f746","type":"text","text":"Use ChatGPT to pull out the new themes in the introduction/conclusions (it sucks to get to the end and realize you should have been reading for something from the beginning)","x":-485,"y":-100,"width":540,"height":100,"color":"5"},
+		{"id":"52f6558c5d507e73","type":"text","text":"Ask for references on this theme (references are the search gold mine)","x":-620,"y":280,"width":250,"height":100,"color":"5"},
+		{"id":"c2722e54c3775e2b","type":"text","text":"Papers Theme1","x":-620,"y":440,"width":250,"height":60,"color":"2"},
+		{"id":"dae20e404db17a89","type":"text","text":"Get an outline to cover the themes","x":340,"y":290,"width":240,"height":80,"color":"4"}
+	],
+	"edges":[
+		{"id":"561cc1a500ae0896","fromNode":"41d13b0750ce6635","fromSide":"bottom","toNode":"71187f9a8b56f746","toSide":"top"},
+		{"id":"e4f7c726474f3228","fromNode":"71187f9a8b56f746","fromSide":"bottom","toNode":"d8f954c643567f49","toSide":"top"},
+		{"id":"75525d6aa6c35f73","fromNode":"71187f9a8b56f746","fromSide":"bottom","toNode":"a96e2ea8054bd6c9","toSide":"top"},
+		{"id":"cc4c6fd40de7c687","fromNode":"71187f9a8b56f746","fromSide":"bottom","toNode":"879811616ea42bd6","toSide":"top"},
+		{"id":"33f9bb1275babd38","fromNode":"d8f954c643567f49","fromSide":"bottom","toNode":"52f6558c5d507e73","toSide":"top"},
+		{"id":"d3804d00dc1ad7ce","fromNode":"c2722e54c3775e2b","fromSide":"left","toNode":"71187f9a8b56f746","toSide":"left"},
+		{"id":"c4690cc9cfbd8cfe","fromNode":"52f6558c5d507e73","fromSide":"bottom","toNode":"c2722e54c3775e2b","toSide":"top"},
+		{"id":"0fde06104293144c","fromNode":"d8f954c643567f49","fromSide":"left","toNode":"71187f9a8b56f746","toSide":"left"},
+		{"id":"b6019abe4d321b62","fromNode":"879811616ea42bd6","fromSide":"right","toNode":"dae20e404db17a89","toSide":"left"}
+	]
+}

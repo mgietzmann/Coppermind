@@ -1,0 +1,30 @@
+Walleye Pollock Depth Occupancy
+- General Habitat and Depth Range
+	- Depth Range by Life Stage (General Patterns)
+	- Regional Variability in Depth Use
+	- Seasonal Shifts in Depth Occupancy
+- Environmental Drivers of Depth Occupancy
+	- Temperature as a Primary Driver
+	- Salinity and Stratification Effects
+	- Light and Photoperiod
+	- Prey Distribution and Feeding Ecology
+	- Oceanographic Structures
+	- Ontogenetic Shifts Mediated by Environment
+- Impact of Depth on Mortality and Fishing Vulnerability
+	- Barotrauma and Capture-Depth Mortality
+	- Gear Interaction and Escape-Related Mortality
+	- Depth-Specific Fishing Pressure
+	- Environmental Modulation of Natural Mortality
+	- Age- and Size-Specific Mortality at Depth
+	- Implications for Management and Selectivity
+- Depth-Related Ecosystem Roles
+	- Vertical Positioning and Trophic Interactions
+	- Life Stage–Specific Ecological Functions by Depth
+	- Ecosystem Linkages Across Vertical Zones
+- Methodological Approaches for Studying Depth Occupancy
+	- Active Acoustic Methods
+	- Trawl and Net-Based Sampling
+	- Tagging and Bio-Logging Technologies
+	- Environmental Sensing and Oceanographic Platforms
+	- Modeling and Simulation Approaches
+	- Calibration, Standardization, and Survey Design

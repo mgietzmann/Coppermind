@@ -174,3 +174,110 @@ Let's bullet out this whole proposal before we head to dinner.
 And we've got a draft!
 
 Next steps are to edit everything I've got there and then add a section explaining why this isn't actually a massive project... but I've got something I could submit if I suddenly got ill or something :) 
+
+
+# Outline of Final Report
+
+## Methods
+
+### Introduction to the Data
+
+*I have this already*
+
+### Preparing the Data
+
+*I have this as well*
+
+### Ordination
+
+- Note that ordination was used to determine the clusters that would then be thrown through the "information" gain analysis. For the occurrence case we modified each species to have 1 where abundance was >0 and 0 everywhere else and then applied the Jaccard distance metric to determine the amount of mutual overlap between different species. In the case of abundance we first standardized the data by taking the fourth root of the abundance. For the computation of distance we then rescaled so that the maximum abundance was 1 for each species. The intention here was to ensure we were judging distance on how peaks and troughs matched up as opposed to how actual abundance matched up. To get distances we then applied Bray-Curtis distance metric. 
+- In both cases we then used agglomerative clustering with complete linkage to build 6 clusters. 6 was chosen somewhat arbitrarily as a balance between having a somewhat large group but not a group so large as to make the information gain calculation prohibitively long. 
+- To see how these clusters mapped against one another we also performed a non metric multidimensional scaling analysis over the distance metrics. We produced two coordinates, mapped these into x, y axes and then plotted the points colored by their clusters. We reported on stress as well.
+- Each of these clusters was then passed through our information gain process. 
+
+### Information Gain
+
+- In each case the overall procedure was:
+	- For each species still marked as "observed":
+		- Remove it from the observed category and place it in the predicted category
+		- Build models for each of the predicted species on the basis of the observed species and the environmental features if indicated
+		- Save the score per species
+		- Average predicted scores to get marginal information
+		- Average predicted and observed scores (1's) to get the total information
+	- Select the species whose movement to the predicted category gives the highest information
+	- Repeat until all species are in the predicted category
+- Regularization
+	- We did a grid search over 5, 10, and 20 minimum nodes per leaf using 3 fold cross validation
+	- A 20% test set was held out in each case to evaluate the final score of each model
+- Standardization
+	- For the occurrence data, before training the model we standardized our data to binary 1's and 0's indicating presence or absence for each species. 
+	- For the abundance data we took the fourth root of abundance per species
+- Resampling (Per species model)
+	- For occurrence data, in order to not have class imbalance for the classifier, we sampled (with replacement) an equal number of rows with and without presence. However we predicted on all samples
+	- For the abundance data we filtered down to rows with positive abundance
+- Information Score
+	- (AUC - 0.5) / 0.5 for the occurrence case
+	- Explained variance for the abundance case
+- Cases
+	- We ran with and without environmental features
+	- And then with and without clustering
+		- The without clustering case had us randomly select as many species as were in the cluster in question but the sample was taken from all species
+
+## Results
+
+## Discussion
+
+
+
+
+## What Am I Going To Do
+
+1. Clustering to find groups that covary to some extent
+2. A test to see if their covariance is better than random
+3. Then flip it and now do an ordination over the stations
+4. Try to predict distances or something on the basis of the species 
+
+Flippin sucks but oh well... 
+
+
+
+1. Cluster on the basis of per stratum kg/ha 
+2. Standardize and rescale
+3. Do a permanova to make sure your stuff is in fact different
+4. Run mantel to sort out which species are most important to the distances
+5. Run RF over those
+6. Pick the point where you hit the knee
+7. How does your overall estimate of abundance change on the extra species?
+
+
+
+---
+
+1. Do you need them all?
+2. Are they indicating distinct groups? Yes and three of them. 
+
+I think the final question I need to answer is this - how to choose my clusters for the above question. Probably groups of them are being indicators together so they can't be treated in isolation. 
+
+ I've found at least two groups that have the properties that:
+1. A permanova says they are different on a species by species level
+2. Their indicator species are bad at indicating for the other set, much better than random for their own set, and better than other species within their own set 
+
+So no you don't need all the species, and yes it looks like there are at least two sets of species that are covarying together in a meaningful way. 
+
+And it's three groups because once you add the fourth it's indicator is no longer actually indicative. 
+
+The first thing I wanted to do was identify if there are any covarying groups of species. So we did these standardization and scaling to then compute a distance matrix using bray curtis and then used agglomeration to cluster. we saw that we get little break off groups which are uninteresting. then we did a permanova to check that our groupings were real, which they definitely are. Next the question was whether we need to know about all the species. Think of this like a dimensionality reduction. but that requires the dimensions are now species so we turned this on its head and back to sites. we took a leaf out of nmds’s book and calculated the stress between the full distance matrix and our species subsets to find minimum sets for the groups. finally we performed a regression against our environmental variables to see if the same kinds of conclusions can be taken from either ordination. and looked at the ordination in both cases. 
+
+you definitely don’t need all of the species but you do need quite a few
+
+And we’ll do this for occurrence patterns at the haul level.
+
+1. standardize and scale both ways
+2. build distances between species 
+3. cluster
+4. permanova 
+5. nmds to see clusters (couple levels to show small groups)
+6. selecting train hauls
+7. apply ordination procedure (plot)
+8. over testing hauls do nmds and plotting of environmental features 
+9. conclude 
