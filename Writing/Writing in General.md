@@ -1,0 +1,1 @@
+- Go through every term and figure out if it's a word your audience is going to know. 

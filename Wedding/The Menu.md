@@ -1,4 +1,5 @@
-# Wedding Menu
+
+Just some ideas, so we can feel free to riff off of all of these. Also all this food sounds great to me but I'm not sure about balance or ensuring there's something for everyone - my mum noted that salmon and lamb are not necessarily great for picky eaters. 
 
 ## Appetizers
 
@@ -45,7 +46,8 @@
   - Roasted Cherry Tomatoes  
   - Roasted Fennel  
   - Grilled Pineapple  
-  - *(Vegetable selection may vary depending on what looks freshest and most delicious)*
+  - Mushrooms
+  - *(I.e., vegetable varies depending on what looks freshest and most delicious :) )*
 
 - **Rice Pilaf**  
   *The classic pairing for salmon growing up — simple, timeless, and satisfying.*
@@ -88,6 +90,6 @@
 - **A Red of Clara’s Choosing**  
   *Clara knows what’s good. They trust her.*
 
-- **Mango, Pineapple, and/or Lychee Juices**  
+- **Mango, Pineapple, and/or Lychee Juices & Ginger Beer!**
   *A little shoutout to South Africa — and to bright, refreshing flavors they both love.*
 

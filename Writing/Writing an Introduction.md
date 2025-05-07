@@ -1,0 +1,11 @@
+An introduction's purpose is to leave no doubt that your goal is important and novel. 
+
+The goal itself should be solution independent. A solution dependent goal indicates a lack of specificity. Suppose you had the goal - find a train for my commute. Why the train and not the bus? Likely because busses are slower and less direct. "Find a timely form of transportation for my commute" would be a better goal. Solution dependent goals are poorly specified and poorly specified goals obscure ingenious solutions. 
+
+With the goal in hand, writing an introduction is a matter of working up to a point of collective value. Recursively ask yourself - what larger opportunity or issue is this part of? Make those increments as specific as possible and keep them solution independent. Each level will set your goal in a more substantive narrative. Once you arrive at a narrative your audience collectively appreciates, flip the levels around - you'll have the key points in a funnel that begins on common ground and works its way down to your goal. 
+
+Next, those points need support. Support comes in three forms - elaboration, evidence, and distinction. Elaboration ensures each level is clear to the reader. Evidence makes the value of the level undeniable. Distinction indicates when a level is presently unaddressed. As you collect them, put them under scrutiny. Is this support enough? Are there contrasting opinions? Where are the holes? Capture the support carefully as they will become your paragraphs. 
+
+Also be careful to capture only those details that matter. While the process of capture requires a literature review and reviews should be comprehensive, arguments should be precise. Proof by verbosity is no proof. The simplest argument is always the most powerful. So strive for simplicity without pulling punches. 
+
+Writing a worthwhile introduction is an act of craftsmanship that can take days or weeks. However it is time well spent. The purpose of an introduction is to leave no doubt that your goal is important and novel - a good place to be before commencing on months or years of research. 

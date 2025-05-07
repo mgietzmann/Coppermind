@@ -137,3 +137,14 @@ The final writing step is just **wordsmithing** — making the language clean, c
 - what you’ll be left with is a set of waypoints to fill in, objectives to fill in, and step by step instructions of how to make it happen! plus because you’ve thought through your introduction, the entire structure of the paper is all there, writing it will be like coloring in the lines! 
 - your introduction obviously contains the waypoints and leads into your goal and its objectives. the methods just recounts your steps with increasing levels of detail as you go through. results follows the format of your objectives but states nothing with valence - just facts. the discussion presents your argument (in the sequence of your objectives) but should rely on nothing but what’s in the results and introduction, and finally your conclusion  just recounts your objective and goals. 
 - so now as you do your research you can just fill your paper in. at the end all that will be required of you is wordsmithing to keep things as concise as possible! 
+
+
+
+
+
+
+- citations in an introduction aren’t just to support things, they are effectively about providing links out to other research as well to provide additional background if folks are interested
+- my semester was wild because I had no real process, laying the groundwork is super important
+- it also totally changes how you approach literature review if you are general exploring or just looking for supporting details
+- and you can learn a lot of what you should do through a lit review 
+- not just about your argument but about how people have done this stuff in the past. there should be an easy explanation for something that is a gap in the world atm 

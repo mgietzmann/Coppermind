@@ -1,0 +1,5 @@
+- [Squarer Circuits](https://resources.pcb.cadence.com/blog/2019-what-is-a-squarer-circuit)
+- [Multiplier](https://www.ti.com/lit/ds/symlink/mpy634.pdf)
+- https://www.argos-system.org/make-your-own-argos-transmitter/
+- https://www.woodsholegroup.com/solutions/sustainable-fisheries-management/
+- https://arribada.org/
