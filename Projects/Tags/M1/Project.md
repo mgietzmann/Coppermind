@@ -59,7 +59,9 @@ https://github.com/MalphasWats/hawk?tab=readme-ov-file
 - 
 
 
+https://www.cdt21.com/design_guide/digital-modulation/#:~:text=If%20a%20similar%20technique%20is,phase%20shift%20keying%20(PSK).
 
 
+The full SMD construction is just too risky... I'm going to need to create breakout boards for all the components I can solder myself and then order them all at once. Then I can design out the tag in breadboard form, try it out, and then once I know I have a good design, translate it into PCB form and get it made for me. 
 
 

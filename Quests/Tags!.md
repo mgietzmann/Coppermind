@@ -1,0 +1,5 @@
+- [ ] Memory
+	- [ ] Solder a development board
+	- [ ] Go through the datasheet
+	- [ ] Find a library for SPI
+	- [ ] Write, turn off, read

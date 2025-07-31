@@ -28,6 +28,32 @@ Finally it is important that everything in your results points back to something
 
 Like an introduction the methods are there to remove doubt about your approach. A good methods will convince the reader that anyone following your recipe will hit your objectives. Therefore, as with the introduction, it is a good idea to outline your methodology before you even get started. 
 
+## Writing Results
+
+If I if you know what a squirrel looks like you'd probably say "yes, of course I do, I've seen them my whole life!". If I then gave you pencil and paper and asked you to draw me one, you may begin to sweat. And you'll certainly be sweating once you actually try and discover that there are a lot of details of a squirrels proportions, coloring, and detail that you don't have the faintest clue about. Drawing is an eye opening experience. It makes you realize you don't know what most things actually look like. 
+
+The problem here is that we take recognition as understanding. You can easily recognize a squirrel without knowing how to draw one - the problem is a very different kind of game and one your human brain is very very good at (at least is usually good at). What drawing shows us is that you only really *understand* something when you can reconstruct it from memory alone. This is why I'll often say that you don't really understand something until you can teach it. 
+
+However there is a problem with this as well. Communication is... squishy... I could teach you what squirrel looks like by telling you it's a medium, grey, bushy tailed rodent that will often sit on its haunches and much of nuts - and though both of us could now *recognize* a squirrel, neither of us could draw one on that information alone. Reconstruction requires more than just relaying your vague idea of something. Instead it requires being able to produce the thing in all of its detail. And that means getting down into the nitty gritty. 
+
+Study is exactly this. It means following a procedure much like that used in realistic drawing. You take the object of study and you try to regurgitate pieces of it with as much precision as you know how. In drawing that means strokes and lines, in science that means numbers. By forcing yourself to identify and then quantify relationships you are forcing yourself to reconstruct. And just like in drawing, as you lay down those strokes and lines (numbers) you'll start to realize all the strokes and lines you haven't captured yet and are unsure of. Reproduction in quantified detail is the exercise that leads to actual *understanding*. 
+
+In your results you are drawing the data for someone else to study. And this is where another important point comes in. Unless you're trying to be photorealistic, you've got to choose the level of abstraction beyond which you and your reader don't need to know. Writing a results section is then an exercise in conveying that drawing, of your data, to your reader. It is not just about vomiting out what you found, it is about getting to know the data yourself. 
+
+> I need to add the fact that there is a struggle between this and telling a story... (whatever telling a story means)
+
+------
+
+Drawing is a very eye opening experience. If you sit down with pencil and paper and try to sketch a squirrel (and not just a cartoon) you'll quickly find yourself feeling like you have absolutely no idea what a squirrel looks like. There will be all the details, all of these proportions, that you'll notice you have no real sense of. Yet you've seen squirrels hundreds, if not thousands of times, how can this be? Don't you know what a squirrel looks like? 
+
+- Key behind results is appreciating that your results should stand on their own two legs
+	- You cannot have statements with valence because that requires a value system (external)
+	- You cannot go back to your objectives cause your objectives are separate ideas
+	- You cannot use other folks ideas - cause that's not just your results
+- Beyond this the key is to figure out the main points (facts) you want your readers to walk away with
+- Then it's L/D your point/proof from there 
+- Finally figure out how you want to string these into a narrative - zoom in, build something, do a round, etc.
+
 
 
 

@@ -1,0 +1,3 @@
+- [ ] Write up what you've learned about writing results 
+- [ ] Write up what you've learned about audiences and journals (and keeping things easy to understand)
+- [ ] *Permutation Analysis:* Write up on the power of permutation analysis. 

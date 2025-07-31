@@ -1,0 +1,3 @@
+- [ ] What does habitat look like in the pelagic ocean?
+	- [ ] Ocean Deserts
+	- [ ] What is the oceanography of the GOA? 
