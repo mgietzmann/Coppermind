@@ -1,0 +1,8 @@
+- [ ] Is it solution independent?
+- [ ] Is it singular?
+- [ ] Have you thought of ways to make it applicable to a broader audience?
+- [ ] Is it falsifiable or testable in some way?
+- [ ] Would a lay person understand it?
+- [ ] Have you made it as concise as possible?
+- [ ] Is it divisible into clear objectives?
+- [ ] 

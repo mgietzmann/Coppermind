@@ -1,0 +1,3 @@
+## Taking Bait
+
+“Boggs (1992)observed that striped marlin Tetrapturus audax had a much greater propensity to take longline baits that were moving during deployment or retrieval ratherthan while settled. Such observations indicate that, by itself, hook time at depth is a crude index of vulnerability; fish can likely perceive a given bait from olfactory and visual cues from 10s if not 100s of meters away and home in on it within seconds.” (Goodyear et al., 2008, p. 243)

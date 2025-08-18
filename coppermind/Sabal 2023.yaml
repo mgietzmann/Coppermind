@@ -1,0 +1,150 @@
+name: Sabal 2023
+citation: Sabal, M. C., Richerson, K., Moran, P., Levi, T., Tuttle, V. J., & Banks, M. (2023). Warm oceans exacerbate Chinook salmon bycatch in the Pacific hake fishery driven by thermal and diel depth-use behaviours. Fish and Fisheries, 24(6), 910 923. https://doi.org/10.1111/faf.12775
+month: 2025-08
+notes:
+  - note: > 
+      Little is known about how climate will impact the mechanisms driving bycatch. 
+      As distributions change novel interactions are to be expected.
+    tags:
+      - climate change
+      - bycatch
+      - models 
+      - uncertainty
+  - note: >
+      During the Pacific marine heat wave hump-back whales moved inshore to feed resulting 
+      in record numbers of whale entanglements with the Dungeness crab fishery.
+    tags:
+      - megaptera novaeangliae
+      - bycatch
+      - horizontal distribution
+      - thermal behavior
+      - dungeness crab fishery
+      - bycatch 
+      - pacific marine heatwave
+    citations:
+      - Santora 2020
+  - note: >
+      Species changing their vertical distribution will likely change bycatch.
+    tags:
+      - bycatch
+      - models
+      - uncertainty
+  - note: >
+      On average, hake occupy water column depths (200-300m)
+    tags:
+      - Merluccius productus
+      - vertical distribution
+  - note: >
+      Chinook salmon have been known to increase their depth in search of thermal refugia
+      when temperatures exceed 12 degrees C.
+    citations: 
+      - Hinke 2005
+      - Teahan 2020
+    tags:
+      - oncorhynchus tshawytscha
+      - thermal behavior
+      - vertical distribution
+  - note: >
+      DVM may exist for Chinook but evidence is quite variable.
+    tags:
+      - oncorhynchus tshawytscha
+      - diel behavior
+      - vertical distribution
+    citations:
+      - Arostgue 2017
+      - Courtney 2019
+      - Hinke 2005
+      - Pearcy 1984
+      - Smith 2015
+  - note: >
+      The pacific hake fishery already volunarily limits night fishing as a bycatch mitigation strategy.
+    tags:
+      - pacific hake fishery
+      - bycatch
+      - voluntary mitigation
+  - note: >
+      Chinook are expected to have changes to their horizontal distribution with climate change.
+    tags:
+      - oncorhynchus tshawytscha
+      - horizontal distribution
+      - climate change
+    citations:
+      - Shelton 2021
+  - note: >
+      Chinook salmon 2021 US commercial landings were valued at US$43.8 million 
+      and the Columbia River fall-run Chinook salmon recreational fisheries 
+      alone were valued at US$25 million/year.
+    tags:
+      - chinook salmon fishery
+      - valuation
+  - note: >
+      Sabal 2023 used GAMs with a quasi Poisson distribution and a log link function over haul data 
+      from the pacific hake fishery to model bycatch.
+    tags:
+      - bycatch
+      - models
+      - model distributions
+  - Chinook Bycatch:
+      tags:
+        - oncorhynchus tshawytscha
+        - bycatch
+        - pacific hake fishery
+        - bycatch
+      notes:
+        - note: >
+            Most Chinook captured as bycatch were adults (>40cm length).
+        - note: >
+            Many hauls had zero Chinook as bycatch.
+        - note: >
+            Genetic distribution of bycatch was: Klamath - Trinity (1052 genotyped from 564 hauls), 
+            S. Oregon - N. California (722 genotyped from 488 hauls), Oregon Coast (223 geno-typed from 206 hauls), 
+            Puget Sound (273 genotyped from 184 hauls) and S. British Columbia (459 genotyped from 334 hauls).
+        - note: >
+            When bycatch occurred in 8534 out of 54,509 hauls, it was patchy; 
+            86% of hauls captured fewer than 10 salmon per hour yet six hauls had bycatch rates 
+            greater than 200 salmon per hour. 
+        - note: >
+            Klamath - Trinity and S. Oregon - N. California populations had southernly distributions 
+            concentrated south of 45° N (Figure 1c). The OR Coast population had the widest latitudinal 
+            distribution, while Puget Sound and S. British Columbia populations were most often caught 
+            north of 47° N near the Strait of Juan de Fuca (Figure 1c). 
+          tags:
+            - oncorhynchus tshawytscha
+            - range
+  - Chinook Vertical Distribution:
+      tags:
+        - oncorhynchus tshawytscha
+        - bycatch
+        - vertical distribution
+        - pacific hake fishery
+        - bycatch
+      notes:
+        - note: > 
+            Bycatch was 5x higher in 0-100m than in 200-300m
+        - note: >
+            When temperatures exceeded 18C Chinook bycatch was practically zero >50m and highest 
+            between 200 and 300m
+          tags:
+            - thermal behavior
+        - note: >
+            Thermal refugia patterns were most apparent in southern populations and almost absent in northern ones.
+            However high temperatures >18C were not recorded for northern populations.
+          tags:
+            - thermal behavior
+            - population behavior
+        - note: >
+            Bycatch variability amongst depths was reduced at night.
+          tags:
+            - diel behavior
+        - note: >
+            Fish moved between shallow depths in the day and deeper waters (200m) at night. However this 
+            pattern dissappeared as one moved north.
+          tags:
+            - diel behavior
+            - population behavior
+        - note: >
+            Bycatch rates were generally higher in shallow fishing depths (<200 m) across populations, 
+            except for the Klamath-Trinity population, which had relatively higher bycatch rates at deeper depths.
+          tags:
+            - diel behavior
+            - population behavior

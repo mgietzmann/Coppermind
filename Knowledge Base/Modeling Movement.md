@@ -1,0 +1,9 @@
+One approach to this is to take tracks as presence and then random correlated walks from the starting point as absences. Then to randomly sample from each of these to create your balanced dataset of presence and absence. 
+
+However this means that what you are actually trying to predict is the number of fish that could make a decision and did over the sum of fish that could make the decision but may or may not have. The issue is that its all conditional on who could make the decision. If very few fish had an opportunity to make the decision in your correlated random walks then you'll get a very high habitat index just from a small number of absences. 
+
+You can run the following example to see this. 
+
+Image that a fish can either go left or right a bit but always forward. And that whenever it goes right in the next time step it will go left and vice versa. This means the fish will tend to go forward. However your random correlated tracks can just keep going left or right. Therefore they will spread out whereas your fish's real track will move forward. If every two time steps you compute the number of absences that have not moved away from that central line you'll find they fall off with the number of steps and the proportion of presences to presences + absences will artificially rise to 100% over time. This means you'd interpret areas further down the track as higher habitat suitability when all that is happening is your random walk hypothesis is fanning out. 
+
+*Point being that what you are modeling is the difference between your null hypothesis (of a correlated random walk) and the actual behavior, which can be different for a wide variety of reasons not related to habitat suitability.* 

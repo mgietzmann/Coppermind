@@ -1,0 +1,3 @@
+“Four of the seven species with Moon × Time interaction effects [yellowfin tuna (Fig. 2A), rays (Fig. 2B), lancetfish (Fig. 2C), and blue marlin (Fig. 2D)] exhibited higher catch rates during the day for all four categories of moon il-lumination. While daytime catch rates exhibited little variance among the moon illumination categories, there was a >3-fold increase of catch for both yellowfin tuna and rays between the first and last moon categories” (Orbesen et al., 2017, p. 6)
+
+[[Orbesen 2017]]

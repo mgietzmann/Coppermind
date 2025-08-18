@@ -1,0 +1,1 @@
+2021 US commercial landings were valued at $43.8 million and the Columbia River fall-run Chinook salmon recreational fisheries alone were valued at $25 million [[Sabal 2023]]. 

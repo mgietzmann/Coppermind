@@ -1,0 +1,59 @@
+name: Kennedy 2024
+citation: Kennedy, J., & Sigurdsson, G. M. (2024). Can depth-based restrictions avoid bird bycatch while maintaining catch rates in the Icelandic lumpfish fishery? A comment on Rouxel et al . (2023). Royal Society Open Science, 11(7), 231981. https://doi.org/10.1098/rsos.231981
+notes:
+  - Icelandic Atlantic:
+      tags:
+        - Icelandic Atlantic
+      notes:
+      - note: >
+          Bycatch of birds in bottom gillnets is an issue in Iceland with several solutions
+          in trial but so far little success.
+        tags:
+          - bycatch 
+          - Aves
+      - note: >
+          Looming eye buoys have been trialed to reduce bird bycatch.
+        tags:
+          - bycatch
+          - bycatch mitigation
+          - Aves
+      - note: >
+          Hypothesis that limiting fishing to waters greater than 50m
+          deep could arrest the decline of black guillemots in Iceland.
+        tags:
+          - bycatch 
+          - bycatch mitigation
+          - Cepphus grylle
+      - note: >
+          While eider ducks and black guillemots are caught in higher numbers 
+          between 0-10m, common guillemots are caught most frequently between 40-50m.
+        tags:
+          - bycatch
+          - Cepphus grylle
+          - Uria aalge
+          - Somateria mollissima
+      - note: >
+          Since 1980 between 173 and 447 boats have participated in the Icelandic 
+          lumpfish fishery.
+        tags:
+          - Icelandic lumpfish fishery
+          - fleet size
+      - note: >
+          There's low fishing effort in the lumpfish fishery at depths 
+          greater than 50m
+        tags:
+          - Icelandic lumpfish fishery
+      - note: >
+          The lumpfish fishery in Iceland is a roe fishery targeting females 
+          that are looking to spawn in structure, structure that may be correlated
+          with coastal (and therefore shallower) areas. 
+        tags:
+          - Icelandic lumpfish fishery
+          - life history
+          - Cyclopterus lumpus
+      - note: >
+          Data from logbooks suggest that in areas A-C and G catch would not be 
+          maintainable if restricted to depths > 50m.
+        tags:
+          - Icelandic lumpfish fishery
+          - bycatch mitigation

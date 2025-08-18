@@ -1,0 +1,92 @@
+name: Olafsson 2016
+citation: Olafsson, K., Einarsson, S. M., Gilbey, J., Pampoulie, C., Hreggvidsson, G. O., Hjorleifsdottir, S., & Gudjonsson, S. (2016). Origin of Atlantic salmon (Salmo salar) at sea in Icelandic waters. ICES Journal of Marine Science, 73(6), 1525–1532. https://doi.org/10.1093/icesjms/fsv176
+month: 2025-08
+notes:
+  - Atlantic Salmon:
+      tags:
+        - Salmo salar
+      notes:
+        - note: >
+            Atlantic salmon spawn in freshwater, have a juvenile phase of
+            1-8 years, and subsequent 1-4 year oceanic feeding migrations.
+          tags:
+            - life history
+        - note: >
+            Still a lack of knowledge about their marine phase - specifically
+            movement and feeding patterns. Information is really only from 
+            tags retrieved near West Greenland, the Faroe Islands, and the 
+            northern Norwegian sea. 
+          tags:
+            - uncertainty
+            - horizontal distribution
+        - note: >
+            Post smolts have been caught north of Scotland, in the Norwegian 
+            sea, and along Labrador.
+          tags:
+            - horizontal distribution
+        - note: >
+            Salmon from North America generally remain in the western North
+            Atlantic although migration to Europe has occurred. Feeding areas
+            north of the Faroe Islands are used by northern European salmon. 
+            Southern European fish are also abundant off West Greenland. 
+          tags:
+            - horizontal distribution
+        - note: >
+            Fishing of atlantic salmon has been banned in Iceland since 1932.
+          tags:
+            - Icelandic fisheries
+        - note: >
+            Code wire tagged salmon from southern and western Iceland showed up near
+            West Greenland whereas those from northern and eastern showed up north of 
+            the Faroes. 
+          tags:
+            - horizontal distribution
+        - note: >
+            Abundance of salmon in Iceland hints at different feeding grounds
+            as there are about twice as many in the southern and western rivers
+            as compared to the north and eastern and the southern and western 
+            abundance is not closely correlated with the others. 
+          tags:
+            - horizontal distribution
+            - abundance
+        - note: >
+            Microsatellite loci have proved useful in tracing escaped 
+            salmon back to their origin farms.
+          tags:
+            - genetics
+            - microsatellites
+            - tracking
+        - note: >
+            Genetic database for Atlantic salmon: SALSEA-Merge project. 26,813 fish
+            from 13 European countries, 284 rivers, and 466 sample sites. Represents
+            ~85% of the non-Baltic European salmon population.
+          tags:
+            - genetics
+            - microsatellites
+            - databases
+        - note: >
+            Assignment of fish by Bayesian assignment method implemented 
+            in GENECLASS2.
+          tags:
+            - genetics
+            - microsatellites
+            - models
+        - note: >
+            Most fish (134 of 186, 73%) were in their first year at sea. 
+            Freshwater age ranged from 1 to 5 years (mean 2.6). 
+          tags:
+            - life history
+        - note: >
+            Of the assingments 68% belonged to the Southern group, 30%
+            to the north and the rest to Iceland. It is unlikely individuals from
+            North America were present (but not impossible). Southern 
+            individuals were more likely in the south and southwest. Northern 
+            in the north and northeast. 
+          tags:
+            - horizontal distribution
+        - note: >
+            A general trend of increasing smolt age with increasing latitude has been 
+            observed. 
+          tags:
+            - horizontal distribution
+            - life history 

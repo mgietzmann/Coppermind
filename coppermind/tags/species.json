@@ -1,0 +1,57 @@
+{
+    "Aves": {
+        "Charadriiformes": {
+            "Alcidea": {
+                "Cepphus": {
+                    "Cepphus grylle": "Black guillemot"
+                },
+                "Uria": {
+                    "Uria aalge": "Common guillemot"
+                }
+            }
+        },
+        "Anseriformes": {
+            "Anatidae": {
+                "Somateria": {
+                    "Somateria mollissima": "Common eider"
+                }
+            }
+        }
+    },
+    "Actinopterygii": {
+        "Gadiformes": {
+            "Merlucciidae": {
+                "Merluccius": {
+                    "Merluccius productus": "North Pacific hake"
+                }
+            }
+        },
+        "Salmoniformes": {
+            "Salmonidae": {
+                "Oncorhynchus": {
+                    "Oncorhynchus tshawytscha": "Chinook salmon",
+                    "Oncorhynchus keta": "Chum salmon"
+                },
+                "Salmo": {
+                    "Salmo salar": "Atlantic salmon"
+                }
+            }
+        },
+        "Perciformes": {
+            "Cyclopteridae": {
+                "Cyclopterus": {
+                    "Cyclopterus lumpus": "Lumpfish"
+                }
+            }
+        }
+    },
+    "Mammalia": {
+        "Artiodactyla": {
+            "Balaenopteridae": {
+                "Megaptera": {
+                    "Megaptera novaeangliae": "Humpback whale"
+                }
+            }
+        }
+    }
+}

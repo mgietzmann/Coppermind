@@ -1,0 +1,5 @@
+“& Nakano (1996) introduced a model that incorporates fish habitat information to estimate population abundance trends from longline catch–effort data by computing levels of ‘effective effort’ within the vertical habitat of the fish. This metric is intended toweight effort by adjusting longline effort by the pro-portions of time fish and hooks spend at the samedepths. T” (Goodyear et al., 2008, p. 234) “The methodology has since beenenhanced by incorporating the concept into a moreformal statistical framework (Maunder et al. 2006).” (Goodyear et al., 2008, p. 234)
+
+“strong day–night differences in species distributionswithin habitat documented herein suggest that CPUE analyses to estimate population abundance trends based on habitat assumptions must integrate day–nightbehaviors.” (Goodyear et al., 2008, p. 242)
+
+[[Goodyear 2008]]

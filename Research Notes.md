@@ -1,0 +1,1 @@
+For example, during the Pacific marine heat wave humpback whales (_Megaptera novaeangliae_, Balaenopteridae) moved inshore to feed resulting in record numbers of whale entanglements with the Dungeness crab (_Metacarcinus magister_, Cancridae) fishery (Santora et al., 2020)
