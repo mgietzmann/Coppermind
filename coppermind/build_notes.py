@@ -1,4 +1,5 @@
 import os
+import sys
 from collections import Counter
 from hashlib import sha256
 
@@ -125,6 +126,13 @@ def add_tags_full(notes, tags):
 
 
 if __name__ == "__main__":
+
+    query_tags = set([tag.strip().lower() for tag in sys.argv[1].split(",")])
+    tags = pull_tags()
+
+    missing = query_tags - set(tags)
+    assert not missing, f"Tags queried but not found: {sorted(missing)}"
+
     notes = []
     for file in os.listdir("./notes"):
         if file.endswith(".yaml"):
@@ -133,11 +141,13 @@ if __name__ == "__main__":
             notes.extend(list(parse_notes(data["notes"], [], data["name"])))
     print(len(notes))
 
-    tags = pull_tags()
     add_tags_full(notes, tags)
+
+    notes = [note for note in notes if set(note.tags) & query_tags == query_tags]
+    print(len(notes))
 
     tree = {"my notes": notes}
     build_tree(tree, "my notes", set(), 3)
 
-    with open("test.md", "w") as fh:
+    with open("notes.md", "w") as fh:
         fh.write(render_tree(tree, 1))

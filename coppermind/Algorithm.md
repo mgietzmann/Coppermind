@@ -5,3 +5,5 @@ Context is found by answering questions. When you've run out of relevant questio
 Answering questions requires research. So to answer questions we must do research!
 
 Questions link back to notes for answers and then provide summaries. So all of this becomes real straightforward. 
+
+Seems like I should turn the categories of tags into questions to ask. 

@@ -1,5 +1,9 @@
 {
     "North Atlantic": {
         "Icelandic Atlantic": {}
+    },
+    "Great Lakes": {
+        "Lake huron": {},
+        "Lake superior": {}
     }
 }

@@ -28,6 +28,12 @@
         },
         "Salmoniformes": {
             "Salmonidae": {
+                "Coregonus": {
+                    "Coregonus clupeaformis": "Lake whitefish"
+                },
+                "Salvelinus": {
+                    "Salvelinus namaycush": "Lake trout"
+                },
                 "Oncorhynchus": {
                     "Oncorhynchus tshawytscha": "Chinook salmon",
                     "Oncorhynchus keta": "Chum salmon"
@@ -53,6 +59,15 @@
             "Balaenopteridae": {
                 "Megaptera": {
                     "Megaptera novaeangliae": "Humpback whale"
+                }
+            }
+        }
+    },
+    "Petromyzontida": {
+        "Petromyzontiformes": {
+            "Petromyzontidae": {
+                "Petromyzon": {
+                    "Petromyzon marinus": "Sea lamprey"
                 }
             }
         }

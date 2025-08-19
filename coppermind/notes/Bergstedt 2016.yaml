@@ -1,0 +1,188 @@
+name: Bergstedt 2016
+citation:
+notes:  
+  - note: >
+      The accurate prediction of the effect of depth regulations requires knowledge of the geographic location 
+      (and through that of bottom depth) concurrent with measurements of fish depth to determine the proportions 
+      of fish suspended above the bottom.
+    tags:
+      - uncertainty
+      - electronic tags
+  - note: >
+      Software then replaced previous observations in a pattern that maintained a complete set of observations 
+      from initialization to download but at gradually increasing intervals over time
+    tags:
+      - archival tags
+      - data compression
+  - note: >
+      Based on laboratory studies (Negus and Bergstedt 2012), the internal temperature after an abrupt change 
+      in external temperature would move 50% toward the new external temperature within about 5 min and 90% 
+      toward the new temperature within 15 min.
+    tags:
+      - measuring temperature
+  - Lake Whitefish:
+      tags:
+        - Coregonus clupeaformis
+        - lake whitefish fishery
+        - Lake huron
+      notes:
+        - note: >
+            Lake Whitefish as a commercial species in the Great Lakes for more than a century, the best diet 
+            information is recent and is related to changes in their diet in Lake Michigan—believed to be the 
+            result of changes in the food web caused by the invasion of dreissenid mussels, resulting in decreases 
+            in Diporeia spp. abundance
+          tags:
+            - diet
+        - note: >
+            The Lake Whitefish in our study were at consistently lower temperatures than would be expected from 
+            laboratory studies. In July-September, when thermal stratification was in place in Lake Huron and 
+            behavioral thermoregulation possible, the mean temperatures occupied by Lake Whitefish ranged 
+            from 8.7ºC to 10.2ºC, about 2ºC lower than laboratory values for either preference or optimum growth.
+          tags:
+            - thermal behavior
+        - note: >
+            Decades of heavy exploitation, combined with mortality from the parasitic Sea Lamprey Petromyzon marinus, 
+            greatly reduced the abundance of the commercially important Lake Whitefish
+          tags:
+            - Coregonus clupeaformis
+            - petromyzon marinus
+            - over exploitation
+            - invasive species
+        - note: >
+            Lake whitefish only started to rebound when a method to control sea lamprey outflow from Lake Superior
+            was put in place in the 1990s
+          tags:
+            - petromyzon marinus
+            - invasive species
+            - lake superior
+        - note: >
+            In the 1970s the state of Michigan banned the use of large-mesh gill nets and 
+            promoted trap nets as the preferred gear for commercial capture of Lake Whitefish
+          tags:
+            - selectivity
+            - gill nets
+            - trap nets
+        - note: >
+            Greater cooperation in fishery management among state, provincial, 
+            and tribal fishery management agencies, adoption of quota management, 
+            and data-driven strategies for setting total-allowable-catch restrictions 
+            have also aided in the Lake Whitefish recovery
+          tags:
+            - cooperation
+            - quota management
+            - data driven fisheries
+  - Lake Trout:
+      tags:
+        - Salvelinus namaycush
+        - Lake huron
+        - lake whitefish fishery
+      notes:
+        - note: Maturity at 6 years of age. 
+          tags:
+            - life history
+        - note: >
+            Community in Michigan made 260 monitoredgill-net lifts. The number of Lake Trout killed 
+            per liftdecreased seasonally from 17.2 per lift during March-June,to 7.4 per lift during 
+            July-October 7, to 4.9 per lift during theremainder of October and November. 
+            Based on those results, atribal small-boat gill-net fishery in Hammond Bay has been 
+            allowed from October 1 to November 6 each year since 2000.
+          tags:
+            - bycatch mitigation
+            - seasonal behavior
+        - note: >
+            Two genetic origins of Lake Trout were used in this study. One was from the upper Great Lakes (GLO) 
+            and the other was from the Finger Lakes in New York
+          tags:
+            - population behavior
+        - note: >
+            By comparison, during 1998–2003, Lake Trout from 213 to 858 mm (TL) and from ages 2 to 14 years in 
+            Lake Huron continued to feed primarily on fish (Madenjian et al. 2006a).
+          tags:
+            - diet
+  - Both:
+      tags:
+        - Salvelinus namaycush
+        - Coregonus clupeaformis
+        - lake huron
+        - lake whitefish fishery
+      notes:
+        - note: The principle bycatch in the lake whitefish fishery is lake trout.
+          tags:
+            - bycatch
+        - note: >
+            Survival of lake trout from trap nets was 98% vs 72% for gill nets.
+          tags:
+            - bycatch mitigation
+        - note: >
+            As the lake trout population increased there was a greater incentive to avoid bycatch.
+            Just due to the time an energy it took to deal with that bycatch.
+          tags:
+            - bycatch mitigation
+        - note: >
+            model LTD-1110 (Lotek Wireless, Newmarket, Ontario), were surgically implanted 
+            in Lake Trout and Lake Whitefish released into Lake Huron. 
+          tags:
+            - archival tags
+        - note: >
+            Archival tags were inserted through a 1.5-cm incision made slightly to the side of the 
+            ventral midline anterior to the pelvic fins. The procedure took about 3 min, during 
+            which fish were anesthetized with clove oil (0.08 mL/L of solution) and the gills 
+            were continuously irrigated.
+          tags:
+            - archival tag placement
+        - note: >
+            Features used to model depth were: seasonal adjustment, group adjustment, and genetic 
+            origin 
+          tags:
+            - model features
+        - Behavior:
+            tags:
+              - thermal behavior
+              - vertical distribution
+              - population behavior
+            notes:
+              - note: >
+                  Lake Whitefish occupied higher temperatures than FLO Lake Trout (Table 2). 
+                  From July through early November, Lake Whitefish were at temperatures from 1.9ºC 
+                  to 3.7ºC higher than FLO Lake Trout. The greatest difference was in late July, 
+                  when the LSM for Lake Whitefish was 10.2ºC but only 6.5ºC for FLO Lake Trout.
+              - note: >
+                  Lake Whitefish were shallower than Lake Trout, particularly during the period 
+                  of summer stratification and in early November (Figures 1, 2). The occurrence of 
+                  Lake Whitefish in shallower depths than Lake Trout was less consistent for GLO Lake 
+                  Trout than for FLO Lake Trout
+              - note: >
+                  The largest differences in depth between Lake Whitefish and FLO Lake Trout occurred in 
+                  late July (11.9 m), August (10.0 and 8.9 m), and early November (13.1 m) (Table 3). 
+                  The larger values in early November correspond to the typical spawning period of 
+                  Lake Whitefish in Lake Huron.
+              - note: >
+                  The pattern of generally higher temperatures and shallower depths occupied by 
+                  Lake Whitefish noted above persisted in analyses conducted separately by daylight and dark.
+              - note: >
+                  A noticeable pattern in the raw archival tag data for some Lake Trout recorded during periods 
+                  of stratification was for an abrupt increase in depth at dark, followed by a cessation in 
+                  depth variation. Behavior patterns of individual fish ranged widely. In contrast, no Lake Whitefish 
+                  demonstrated this or any other diel pattern.
+              - note: >
+                  The comparison of the depth distributions indicated that in some seasonal intervals the separation 
+                  in depth could be useful to the regulation of the Lake Whitefish fishery and help avoid Lake Trout 
+                  bycatch
+                tags:
+                  - bycatch mitigation
+              - note: >
+                  Early July through November, fishing to a maximum depth of 25 to 35 m (indicated by the horizontal 
+                  lines in Table 5) could target about half the Lake Whitefish population. At the same time, relatively 
+                  low percentages of Lake Trout would be targetedmost notably in late July
+                tags:
+                  - bycatch mitigation
+              - note: >
+                  Diet and food availability might be the most important variables currently influencing depth 
+                  distributions of Lake Trout (Bergstedt et al. 2012) and Lake Whitefish. The depths of both Lake Whitefish 
+                  and Lake Trout were consistent with recent measurements of the distributions of their major prey items, 
+                  lending support to a hypothesis that prey availability and distribution is a more important variable 
+                  affecting Lake Whitefish and Lake Trout depth distributions than temperature preference or conditions for 
+                  optimum growth.
+                tags:
+                  - diet
+

@@ -1,11 +1,19 @@
 {
     "Models": {
-        "model distributions": {}
+        "model distributions": {},
+        "model features": {}
     },
     "Genetics": {
         "Microsatellites": {}
     },
     "Tracking": {},
     "Meta-analyses": {},
-    "otter trawl modification testing": {}
+    "otter trawl modification testing": {},
+    "electronic tags": {
+        "archival tags": {
+            "archival tag placement": {}
+        },
+        "measuring temperature": {},
+        "data compression": {}
+    }
 }

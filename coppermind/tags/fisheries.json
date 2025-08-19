@@ -5,14 +5,7 @@
     "North American fisheries": {
         "Chinook salmon fishery": {},
         "Dungeness crab fishery": {},
-        "Pacific hake fishery": {}
-    },
-    "Otter Trawls": {
-        "Otter Trawl Zones": {
-            "Otter trawl zone 1": {},
-            "Otter trawl zone 2": {},
-            "Otter trawl zone 3": {},
-            "Otter trawl zone 4": {}
-        }
+        "Pacific hake fishery": {},
+        "Lake whitefish fishery": {}
     }
 }
