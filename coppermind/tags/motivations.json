@@ -1,3 +1,9 @@
 {
-    "Uncertainty": {} 
+    "Uncertainty": {
+        "Coverage": {},
+        "Replication": {}
+    },
+    "Communication": {},
+    "Small Solution Set": {},
+    "Waste": {}
 }

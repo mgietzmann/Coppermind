@@ -1,0 +1,158 @@
+name: Kennelly 2021
+citation: Kennelly, S. J., & Broadhurst, M. K. (2021). A review of bycatch reduction in demersal fish trawls. Reviews in Fish Biology and Fisheries, 31(2), 289-318. https://doi.org/10.1007/s11160-021-09644-0
+notes:
+  - note: >
+      Demersal otter trawling is responsible for 25% of the world's discarded bycatch.
+    tags:
+      - bycatch
+      - waste
+      - otter trawls
+  - note: European Union's Landing Obligation
+    tags:
+      - bycatch mitigation
+  - note: >
+      Most of the research on bycatch has been limited in locations and focuses
+      on gear modification.
+    tags:
+      - bycatch mitigation
+      - small solution set 
+  - note: >
+      The "zones" of an otter trawl are: (1) spreading mechanisms, 
+      (2) entry point, (3) trawl body (sequentially smaller meshes),
+      (4) extension and codend.
+    tags:
+      - otter trawls
+  - note: >
+      PRISMA - preferred reporting items for systematic reviews and 
+      meta-analyses
+    tags:
+      - meta-analyses
+  - Trawling for Fish:
+      tags:
+        - actinopterygii
+        - otter trawls
+        - bycatch mitigation
+      notes:
+        - note: >
+            74% of research on gear modifications has happened in Europe.
+            Only 17% of papers came from North America. 
+        - note: > 
+            7% of experiments in zone 1, 11% in zone 2, 11% in zone 3,
+            with a whopping 71% in zone 4. 
+        - note: >
+            Most common testing strategy (51%) is to cover the codend to capture
+            escaping fish. The second most common strategy is to do alternate hauls 
+            (22%). More often used for zone 1 - 3 modifications. 
+          tags:
+            - otter trawl modification testing
+        - note: >
+            People define the selectivity of modified gear on the basis 
+            of selection range size or 50% size at selection.
+          tags:
+            - otter trawl modification testing
+        - note: >
+            Raising sweeps reduces bycatch of bottom dwelling species and optimizing
+            the spread ratio can significantly help improve catches of target species. 
+          tags:
+            - Pleuronectoidei
+            - otter trawl zone 1
+        - note: >
+            By removing the top rope, fish that rise are caught less without necessarily 
+            losing fish that don't. (Haddock vs flatfish for example)
+          tags:
+            - vertical distribution
+            - Pleuronectoidei
+            - otter trawl zone 2
+        - note: >
+            Raising the foot rope reduces bycatch of flatfish whilst often maintaining
+            catch rates of target species. This also can reduce benthic infauna and debris
+            in the catch.
+          tags:
+            - Pleuronectoidei
+            - otter trawl zone 2
+        - note: >
+            Semicircular spreading ground gear improved catching efficiency for 
+            larger cod and haddock while reducing drag. 
+          tags:
+            - Gadiformes
+            - otter trawl zone 2
+        - note: >
+            Removing tickler chains reduces catchs of elasmobranchs without affecting
+            targeted haddock, whiting or flatfish. This takes advantage of herding behavior.
+          tags:
+            - behavior
+            - Gadiformes
+            - Pleuronectoidei
+            - otter trawl zone 2
+        - note: >
+            LEDs (especially at night) can help with bycatch
+          tags:
+            - behavior
+            - diel behavior
+            - otter trawl zone 2
+        - note: >
+            Increasing mesh size helps keep the fish you want and remove the fish you don't.
+          tags:
+            - otter trawl zone 3
+        - note: >
+            Horizontal separator panels can help sort downwards oriented fish from 
+            upwards rising ones. 
+          tags:
+            - vertical distribution
+            - otter trawl zone 3
+        - note: >
+            One can make "windows" of different shape or size mesh to allow certain kinds of 
+            fish to escape. 
+          tags:
+            - morphology
+            - otter trawl zone 3
+        - note: >
+            Clearly more research should be done to extend things to other species but likely 
+            a great deal of the work done so far can be reused.
+          tags:
+            - coverage
+        - note: >
+            There's a need in these bycatch mitigation tests to improve the spatio-temporal
+            coverage and replication of experiments.
+          tags:
+            - otter trawl modification testing
+            - coverage
+            - replication
+        - note: >
+            A great many things can influence selectivity including but not limited to
+            temperature, fish condition, sea state, diel patterns, towing speed, haul back
+            delay, catch weight, and water depth. Also included here would be the codend lengths
+            twine diamters, netting materis, and so on. 
+          tags:
+            - otter trawl modification testing
+            - coverage
+            - replication
+        - note: >
+            There's a need to standardize on measures of effectiveness as well as 
+            how to communicate the effectively to stakeholders. 
+          tags:
+            - otter trawl modification testing
+            - communication
+        - note: >
+            There was no clear trend of more complex modifications being better
+            than simpler ones. So starting simple and in the codend is likely best.
+        - Zone 4:
+            tags: 
+              - otter trawl zone 4
+            notes:
+              - note: >
+                  Reducing the circumference of the codend or length of extension
+                  can reduce bycatch. 
+              - note: >
+                  More flexible twine and single twine often improves selectivity.
+              - note: >
+                  Simply replacing T0 with T45 mesh does wonders. 
+              - note: >
+                  Windows made of different kinds of mesh can be very useful here.
+                  You can also create windows to guide fish to those windows. 
+              - note: >
+                  Grids like the Sort-X and sort-V and flexigrids have been shown to
+                  be useful. However windows seem to be able to give the same bang 
+                  for significantly less hassle. However they remain quite popular
+              
+                
