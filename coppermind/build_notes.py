@@ -1,5 +1,6 @@
 import os
 from collections import Counter
+from hashlib import sha256
 
 import yaml
 import numpy as np
@@ -19,6 +20,9 @@ Note: {self.text}
 Tags: {sorted(self.tags)}\n
 From: {self.name}
         """
+
+    def get_hash(self):
+        return sha256((self.name + self.text).encode("utf-8")).hexdigest()
 
 
 def extract_tags(tags):
@@ -97,7 +101,8 @@ def render_tree(tree, level):
         else:
             for note in value:
                 content += ">" + note.text + "\n\n"
-                content += "-" + note.name + "\n\n"
+                content += "-" + note.name + "\n"
+                content += note.get_hash() + "\n\n"
     return content
 
 
@@ -121,9 +126,9 @@ def add_tags_full(notes, tags):
 
 if __name__ == "__main__":
     notes = []
-    for file in os.listdir("."):
+    for file in os.listdir("./notes"):
         if file.endswith(".yaml"):
-            with open(file, "r") as file:
+            with open("./notes/" + file, "r") as file:
                 data = yaml.safe_load(file)
             notes.extend(list(parse_notes(data["notes"], [], data["name"])))
     print(len(notes))

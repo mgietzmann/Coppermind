@@ -1,0 +1,2 @@
+- Behavior is useful for so much more than just straight avoidance. You can design nets to suit the behavior of the fish you're trying to catch.
+- Could you just make a company out of this explicitly? 

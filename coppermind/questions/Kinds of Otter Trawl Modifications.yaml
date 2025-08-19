@@ -1,0 +1,31 @@
+question: >
+  How have otter trawls been modified to improve selectivity
+  and/or reduce bycatch?
+answer:
+  - question: How do the modifications divide up?
+    answer:
+      - 7872499564806adf2306d6cb68ae9f29d2d1ee1d27ea520b67c44fdb79b6a14c
+      - c1ea7f30c8b5a08b4b53d2e50bcee39d3389b9d3d293eb38d37e49a692f12c09
+      - 9f1d6c3b98261ee1cb37d552a7a442c2d75cc7b2f78c78b7d1c616437b83ac96
+  - question: What kinds of modifications are done to zone 1?
+    answer:
+      - 2d5fecdf76a1fa2e4a746a7c1266b2ab120e5e40177c53e4d0e9d575b65e98b7
+  - question: What kinds of modifications are done to zone 2?
+    answer:
+      - 13d1af2bb5c180e0b765bc4acf9cc75bc897508bfaac21c83ef73587cb3c7284
+      - 84fee851b7e2b10616d3f58e5062036fa529b6277b3ba349c7937d8641e64610
+      - 73985ac7c32fab946d7abc0815e9130ac17f5759ded63597ffec9418ae83abb0
+      - 2d26cd042376e0944f12e34517f243a41a943bfb63b30fb7dac919c9420caefa
+      - 290502083d6232c5f2d58586e5d5e0dfff8cee0ace6cfd2340f4906857774e30
+  - question: What kinds of modifications are done to zone 3?
+    answer:
+      - c5f13c50d21e4293cad1599838e56911ebda8b7029b6e9a91c54e02348b3f4ea
+      - 34533e2d60213d950f8a858992aafc6c89125cc2406334e03fa4b95bd5b3b800
+      - 32952b1999e053093cf1aeb7ac8e159d822640fbf99eb8fa7f971317cfb07409
+  - question: What kinds of modifications are done to zone 4?
+    answer:
+      - b4ee54bcbcc4e2c870986c860c1f0105618e588e06a7181e498e7702eb61c936
+      - c5bf2778a1ab8c08c82e258b625d024fd9136622980404a278717dd6965cdaf5
+      - c68e60dc81f9bb78e912fe452ba4251250244db62b48d005506e853daff9f134
+      - ef98bef929a8bdf73906c13dff88d36f6fdfd5294f251c50f1eb68e5e97c5893
+      - dfa09e068e0e456f53c16f397fe4e7c94b3e51b3e806f50b809694de870b6ad9
