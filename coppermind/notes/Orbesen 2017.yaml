@@ -1,0 +1,108 @@
+name: Orbesen 2017
+citation: Orbesen, E., Snodgrass, D., Shideler, G., Brown, C., & Walter, J. (2017). Diurnal patterns in Gulf of Mexico epipelagic predator interactions with pelagic longline gear Implications for target species catch rates and bycatch mitigation. Bulletin of Marine Science, 93(2), 573–589. https://doi.org/10.5343/bms.2016.1008
+notes:
+  - The Study:
+      tags:
+        - Gulf of Mexico
+        - United States pelagic longline fishery 
+        - longlines
+      notes:
+        - note: Globally, the annual number of PLL hooks fished exceeds 1.4 billion, accounting for a substantial fraction of the world’s tuna and swordfish production
+        - note: While these measures have helped to mitigate PLL bycatch, there is considerable sentiment that more substantial remedies are needed (Cox et al. 2007).
+          tags:
+            - bycatch
+        - note: Swordfish (Dewar et al. 2011, Lerner et al. 2013), bigeye thresher shark (Alopias superciliosus Lowe, 1841) (Weng and Block 2004, Musyl et al. 2011), and escolar [Lepidocybium flavobrunneum (Smith, 1843)] (Kerstetter et al. 2008) have been observed to spend daytime hours in the mesopelagic zone (>500 m) and vertically migrate to the epipelagic zone (<75 m) at night.
+          tags:
+            - escolar
+            - bigeye tuna
+            - bigeye thresher shark
+            - diel behavior
+            - vertical behavior
+        - note:  Yellowfin tuna [Thunnus albacares (Bonnaterre, 1788)] (Hoolihan et al. 2014, Weng et al. 2009), bigeye tuna [Thunnus obesus (Lowe, 1839)] (Arrizabalaga et al. 2008), blackfin tuna [Thunnus atlanticus (Lesson, 1831)] (Fenton et al. 2015), blue marlin (Makaira nigricans Lacépède, 1802) (Goodyear et al. 2008, Holland et al. 1990, Kerstetter et al. 2003), and white marlin [Kajikia albida (Poey, 1860)] (Hoolihan et al. 2015) have all been reported to reduce diving activity at night with a majority of the nighttime spent in near-surface waters, which could indicate a reduction in feeding at night for these species (Kerstetter and Graves 2006).
+          tags:
+            - yellowfin tuna
+            - bigeye tuna
+            - blackfin tuna
+            - blue marlin
+            - white marlin
+            - diel behavior
+            - vertical behavior
+        - note: PLL fisheries routinely exploit behavioral differences by altering gear characteristics, location, fishing depth, and time of day for gear deployment to maximize catch rates of target species.
+          tags:
+            - bycatch mitigation
+            - diel behavior 
+        - note: Watson et al. (2005) found that hook type (circle vs J), as well as the bait it is paired with, can affect the catch rate and incidence of deep hooking for some sea turtle species, while maintaining similar catch rates of swordfish. Based primarily on the results of that study, the United States National Marine Fisheries Service (NMFS) enacted a rule mandating the use of circle hooks in the United States PLL fishery, banning the use of the J-style hook (Federal Register 2004).
+          tags:
+            - bycatch mitigation
+            - sea turtles
+            - swordfish
+        - note: In addition to hook type, studies have found moon phase to be a significant factor in catch rate of both target and non-target species (e.g., Melvin et al. 2013, Shimose et al. 2013).
+          tags:
+            - lunar behavior
+        - note: swordfish PLL sets are generally allowed to soak (defined as the period of time after the last hook is deployed and before the first hook is retrieved) overnight, while yellowfin PLL sets soak during the daytime.
+          tags:
+            - swordfish
+            - yellowfin tuna
+            - diel behavior
+        - note: The United States PLL fishery operates year-round in broad areas of the western North Atlantic Ocean and GOM.
+        - note: sunset times, as well as the percent moon illumination for each set based on their dates and geographic coordinates. The additional focus on lunar illumination was to lend some biological inference into foraging behavior of different species as a function of light intensity rather than simply solar day and night. (They also used hook type, baity type, soak time, and the season)
+          tags:
+            - model features
+            - bycatch
+        - note: we used a generalized linear model with a negative binomial distribution and no intercept
+          tags:
+            - models
+            - bycatch
+        - Astrology:
+            tags:
+              - diel behavior
+              - lunar behavior
+              - bycatch
+            notes:
+            - note: Four of the seven species with Moon × Time interaction effects [yellowfin tuna (Fig. 2A), rays (Fig. 2B), lancetfish (Fig. 2C), and blue marlin (Fig. 2D)] exhibited higher catch rates during the day for all four categories of moon illumination. While daytime catch rates exhibited little variance among the moon illumination categories, there was a >3-fold increase of catch for both yellowfin tuna and rays between the first and last moon categories
+              tags:
+                - yellowfin tuna
+                - rays
+                - lancetfish
+                - blue marlin
+            - note: Daytime catch rates for pomfrets were relatively unaffected by lunar illumination (Fig. 2E); however, there was a five-fold difference in catch rates between the first and last illumination categories [<25% (M1), >75% (M4)] at night.
+              tags:
+                - pomfrets
+            - note: Five species [swordfish (Fig. 3A), tiger shark (Fig. 3B), silky shark (Fig. 3C), oilfish (Fig. 3D), and bigeye thresher shark (Fig. 3E)] had a significantly higher catch rate during night sets.
+              tags:
+                - swordfish
+                - tiger shark
+                - silky shark
+                - oilfish
+                - bigeye thresher shark
+            - note: Four species [skipjack tuna (Fig. 3F), wahoo (Fig. 3G), white marlin (Fig. 3H), and dolphinfish (Fig. 3I)] all had higher catch rates during the day. Skipjack have the highest daytime catch rate relative to nighttime catch rate being 5.75 times higher during the day.
+              tags:
+                - skipjack tuna
+                - wahoo 
+                - white marlin 
+                - dolphinfish
+            - note: Swordfish exhibited highest catch rates during periods of low moon illumination [<25% (M1)] (Fig. 4A);
+              tags:
+                - swordfish
+            - note: skipjack tuna had the highest catch rates during periods with the greatest moon illumination
+              tags:
+                - skipjack tuna
+            - note: Catch rates for wahoo were lowest when the moon illumination was <25% (M1) and highest when the moon illumination exceeded 75% (M4)
+              tags:
+                - wahoo
+            - note: The differential response between target and bycatch for day vs night sets indicates that there may be potential to alter target:bycatch ratios or to reduce bycatch of specific species by changing the time of day of setting.
+              tags:
+                - bycatch mitigation
+            - note: However, lunar influence on catch is not consistent among fisheries and geographic regions. In the gillnet fisheries of Italy (Di Natale and Mangano 1995) and Turkey (Akyol 2013), CPUEs also tended to be higher during periods of low moon illumination, which was attributed to greater visibility of the net with increasing moon illumination.
+              tags:
+                - uncertainty
+            - note: Escolar are a benthopelagic fish that exhibit a nightly migration to near surface waters for feeding (Kerstetter et al. 2008), where they interact with longline gear. Escolar have large eyes and a low density of retinal ganglion cells, which give the fish a high optical sensitivity (Landgren et al. 2014); this might lead to lower catch rates during periods of greater lunar illumination due to an increase in the visibility of the gear.
+              tags:
+                - escolar
+            - note: It is important to understand that there are differential responses between target species and bycatch, and small shifts in fishing effort could have large impacts on catch rates of key bycatch species
+              tags:
+                - bycatch mitigation
+            - note: The variation in reported results for marlins suggests that the influence of diel periodicity and lunar illumination on catch rates may be specific to geographic regions.
+              tags:
+                - uncertainty
+

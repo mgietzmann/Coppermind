@@ -1,0 +1,103 @@
+name: Shirk 2023
+citation: Shirk, P. L., Richerson, K., Banks, M., & Tuttle, V. (2023). Predicting bycatch of Chinook salmon in the Pacific hake fishery using spatiotemporal models. ICES Journal of Marine Science, 80(1), 133–144. https://doi.org/10.1093/icesjms/fsac219
+notes:
+  - Pacific Hake Fishery:
+      tags:
+        - us west coast
+        - pacific hake fishery
+        - otter trawls
+      notes:
+        - note: stock is managed through the bilateral Pacific Whiting Agreement between the United States and Canada, which allocates an annual quota across the two countries
+          tags:
+            - international management
+            - management
+        - note: hake fishery also has room to grow, as it has averaged only 75% attainment of the target catch over the last 10 years
+          tags:
+            - valuation
+        - note: The ratio of bycatch to hake in this fishery is overall relatively low (typically <2%)
+          tags:
+            - bycatch
+        - note: Efforts to minimize bycatch in the hake fishery include fleet communication measures, bycatch quotas, and a catch-share programme
+          tags:
+            - bycatch mitigation
+        - note: Efforts include cooperatives, hotspot closures, restrictions of fishing at night and the use of test tows.
+          tags:
+            - bycatch mitigation
+        - note: a total take of 20000 Chinook is allowed for the entire groundfish fishery (for comparison, the non-tribal targeted ocean Chinook fishery landed ∼13000–900000 fish annually between 2000 and 2020, with a generally declining trend; PFMC, 2021). Of this incidental take amount, 11000 Chinook are apportioned to the hake fishery and 5500 to the non-hake fishery, with a “reserve” of 3500 fish that can be accessed by either sector
+          tags:
+            - chinook salmon
+        - note: he two at-sea sectors are monitored through the At-Sea Hake Observer Program (A-SHOP); the shore-side sector is monitored through the West Coast Groundfish Observer Program (WCGOP) and the West Coast Region, National Marine Fisheries Service.
+          tags:
+            - databases
+            - bycatch
+        - note: They tried decision trees and lineary models
+          tags:
+            - models 
+            - bycatch
+        - note: To avoid reducing sample size as much, RF 3 employs the synthetic minority over-sampling technique
+          tags:
+            - class bias 
+            - bycatch
+        - note: Haul characteristics included fishing sector (at-sea catcher-processor; at-sea mothership; shoreside); year; haul duration; day of year; time of day; fishing depth; and location (latitude and longitude, projected to the USA Contiguous Equidistant Conic projection)
+          tags:
+            - bycatch
+            - model features
+        - note: Environmental variables included ocean depth, sea surface temperature (SST) anomaly, upwelling, and bottom slope, all of which were interpolated to the location and time of each haul
+          tags:
+            - bycatch
+            - model features
+        - note: We use the SST anomaly (difference from the 1971 to 2000 mean) from the NOAA 1/4◦ daily Optimum Interpolation SST V2 dataset (https://www.psl.noaa.gov/data/ gridded/data.noaa.oisst.v2.highres.html). Using temperature anomalies (rather than absolute temperature) is common in the marine sciences and has the advantage of removing seasonal cycles
+          tags:
+            - bycatch
+            - model features
+        - note: Sea surface temperature anomaly has also been shown to be related to the marine distributions of both hake (Malick et al., 2020) and Chinook (Shelton et al., 2020).
+          tags:
+            - pacific hake
+            - chinook salmon
+        - note: We used the coastal upwelling transport index (CUTI) (Jacox et al., 2018) as a metric of upwelling.
+          tags:
+            - bycatch
+            - model features
+        - note: In order to account for the temporal structure in our data and to test realistic predictive ability, we used blocked time-series cross-validation for the second and third crossvalidations
+          tags:
+            - overfitting
+        - note: our marginal effect plots (see supplementary materials). There were higher levels of bycatch at night (Supplementary Figure S12), towards the end of the fishing season (Supplementary Figure S13), at shallower fishing depths (Supplementary Figure S15), in shallower water (Supplementary Figure S16), in more anomalous ocean temperatures (Supplementary Figure S18), and in stronger downwelling (Supplementary Figure S19).
+          tags:
+            - chinook salmon 
+            - bycatch
+            - diel behavior
+            - seasonal behavior
+            - horizontal behavior
+            - vertical behavior
+        - note: Removing a small proportion of hauls that are predicted to have the most bycatch had a large influence on the overall ratio of bycatch to hake (Figure 5). Using weekly crossvalidation on the GBT 1 model trained with 4 years of data, removing just 1% of hauls reduced the bycatch-to-hake ratio by 20%.
+          tags:
+            - chinook salmon
+            - bycatch mitigation
+        - note: This is congruent with other efforts to model bycatch, which generally show that relatively minor modifications to fishing effort are likely to result in large declines in bycatch (
+          tags:
+            - chinook salmon
+            - bycatch mitigation
+        - note: More generally, the decline in predictive ability of tree-based models when extrapolating results in space or time may be a result of complex models being overfit to training data,
+          tags:
+            - chinook salmon
+            - bycatch mitigation 
+            - overfitting
+        - note: Our models generally agree that bycatch increases in anomalous temperatures. The same trend has been observed in other fisheries. However, in large temperature anomalies, different models suggest different relationships, with linear-based models suggesting more bycatch in warmer temperatures and GBT models the opposite.
+          tags:
+            - chinook salmon
+            - bycatch mitigation
+            - thermal behavior
+            - vertical behavior
+        - note: In a much larger study of the ocean distribution of Chinook, Shelton et al. (2020) showed that different Chinook stocks have different relationships between their ocean distribution and the SST anomaly, and that those relationships can vary through time.
+          tags:
+            - chinook salmon
+            - bycatch mitigation
+            - thermal behavior
+            - vertical behavior
+        - note: Over the most common hake fishing depths (100–400 m), all models show decreasing bycatch with depth when other covariates are held constant at mean values (Supplementary Figure S15). That relationship could change for tree-based models with other combinations of covariate values. Otto et al. (2016) found the maximum catch probability of a single Chinook stock at ∼150 m, but the amount of Chinook caught (given that some were caught) kept increasing with increasing depth
+          tags:
+            - chinook salmon
+            - bycatch mitigation
+            - vertical behavior
+
+        

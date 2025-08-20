@@ -6,6 +6,23 @@
         "Chinook salmon fishery": {},
         "Dungeness crab fishery": {},
         "Pacific hake fishery": {},
-        "Lake whitefish fishery": {}
-    }
+        "Lake whitefish fishery": {},
+        "us west coast groundfish bottom trawl fishery": {
+            "us west coast flatfish fishery": {}
+        },
+        "us pelagic longline fishery": {
+            "us alaska demersal longline fisheries": {}
+        },
+        "us west coast crab fishery": {},
+        "us west coast scallop fishery": {},
+        "alaska trawl fisheries": {
+            "north pacific pollock fishery": {
+                "goa pollock fishery": {},
+                "ebs pollock fishery": {}
+            }
+        }
+    },
+    "barents sea demersal trawl fishery": {},
+    "ocean shrimp trawl fishery": {},
+    "North Atlantic longline swordfish fishery": {}
 }

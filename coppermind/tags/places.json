@@ -1,9 +1,17 @@
 {
-    "North Atlantic": {
-        "Icelandic Atlantic": {}
+    "Atlantic": {
+        "North Atlantic": {
+                "Icelandic Atlantic": {}
+        },
+        "Gulf of Mexico": {}
     },
     "Great Lakes": {
         "Lake huron": {},
         "Lake superior": {}
+    },
+    "Barents Sea": {},
+    "Pacific": {
+        "us west coast": {},
+        "north pacific": {}
     }
 }

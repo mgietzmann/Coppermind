@@ -1,0 +1,137 @@
+name: Gilman 2006
+citation: Gilman, E. L., Dalzell, P., & Martin, S. (2006). Fleet communication to abate fisheries bycatch. Marine Policy, 30(4), 360–366. https://doi.org/10.1016/j.marpol.2005.06.003
+notes:
+  - note: >
+      The issue is addressed as a component in a growing number of broad 
+      international resolutions, including Agenda 21 (1992); the Cancun 
+      Declaration (1992); UN General Assembly Resolutions 49/118 (1994) 
+      and 50/25 (1995); the Rome Consensus on World Fisheries (1995); the 
+      UN Food and Agriculture Organization International Code of Conduct 
+      for Responsible Fisheries (1995); and the Kyoto Declaration and 
+      Plan of Action (1995)
+    tags:
+      - bycatch 
+  - note: >
+      For instance, hundreds of thousands of seabirds, including tens of 
+      thousands of albatrosses, are caught annually in longline fisheries 
+      worldwide, posing a critical global threat to some albatross and 
+      large petrel populations
+    tags:
+      - albatrosses
+      - petrels
+      - aves
+  - note: >
+      Cumulative turtle mortality in pelagic longline gear worldwide 
+      poses a priority threat to sea turtles, in particular, to 
+      leatherback (Dermochelys coriacea) and loggerhead (Caretta caretta) 
+      sea turtles
+    tags:
+      - leatherback turtles
+      - loggerhead turtles
+      - bycatch
+  - note: >
+      There are many strategies to manage commercial marine fisheries bycatch. 
+      These include formal constraints through laws, regulations, and policies; 
+      multilateral accords; marine protected areas, including area and seasonal 
+      closures; best practices for handling and release of bycatch species; changes 
+      in fishing gear and methods; eco-labeling; industry self-policing; industry 
+      awareness-raising and capacity-building; and fleet communication programs
+    tags:
+      - bycatch mitigation
+  - note: >
+      Fleet-wide communication programs can report realtime observations of bycatch 
+      hotspots, where fisheries bycatch rates of finfish, shellfish, seabirds, 
+      sea turtles, and marine mammals are high, so that vessels in the fleet 
+      can avoid fishing in the area
+    tags:
+      - bycatch mitigation fleet communication
+  - note: >
+      An area of over 7.7 million km2 in the western North Atlantic, which includes the productive Grand Banks, had been partially closed to the US pelagic longline fleet since 2000, and completely closed since 2001 due to concerns over turtle bycatch [26–28].
+    tags:
+      - bycatch mitigation closures
+      - North Atlantic longline swordfish fishery
+      - longlines
+      - swordfish
+      - loggerhead turtles
+      - leatherback turtles
+      - North Atlantic
+  - note: In addition, non-monetary benefits from instituting a fleet communication program could be substantial, such as from positive media coverage and other values not described by established monetary indicators [33].
+    tags:
+      - bycatch mitigation fleet communication
+  - note: Fishers are some of the most qualified people to develop and improve bycatch mitigation techniques.
+    tags: 
+      - bycatch mitigation
+  - Turtles:
+      tags:
+        - bycatch mitigation fleet communication
+        - North Atlantic longline swordfish fishery
+        - longlines
+        - swordfish
+        - loggerhead turtles
+        - leatherback turtles
+        - North Atlantic
+      notes:
+        - note: > 
+            Vessels use short and long range radio and e-mail to communicate. Information communicated amongst the fleet incudes sea turtle encounters, sightings of clusters of sea turtles, and specific oceanographic features.
+        - note: >
+            In 2001 the Blue Water Fishermen's Association voluntarily established a fleet communication program for the US North Atlantic longline swordfish (Xiphias gladius) fishery, primarily to reduce loggerhead and leatherback sea turtle bycatch.
+        - note: >
+            fleet-wide communication protocol enabled vessels to avoid fishing on the warmer side of oceanographic fronts and tight bends in the edge of an oceanographic front, where fishers found relatively high interaction rates with turtles.
+          tags:
+            - behavior
+        - note: >
+            the fleet communication program is hypothesized to allow the fleet to reduce turtle captures by half.
+        - note: >
+            Captains are in regular frequent communication via radio and e-mail, so there is minimal additional cost for the transfer of information about sea turtle bycatch.
+  - Longline Demersal:
+      tags:
+        - bycatch mitigation fleet communication
+        - US Alaska Demersal Longline Fisheries
+        - Pacific Cod
+        - Greenland turbot
+        - sablefish
+        - longlines
+        - North Pacific 
+        - pacific halibut
+        - seabirds
+      notes:
+        - note: In 1992 the North Pacific Longline Association voluntarily instituted a fleet communication program by hiring a private company, Fisheries Information Services, to manage fleet communication to reduce halibut bycatch, and in 1999 added fleet communication to reduce seabird bycatch in Alaska demersal longline fisheries for freezer-longline vessels.
+        - note: However, all vessels have provided their codes to a fishery organization, the North Pacific Longline Association, which is then able to contact individual vessels whose bycatch levels and rates are high. This separation of the analytical and ‘‘enforcement’’ parts of the program is deemed critical.
+        - note: Fisheries Information Services also develops maps showing halibut and bird bycatch hotspots (vessel names are not attached to these data to protect confidentiality). This information is not typically distributed during the fishing season as some members of the fleet want to avoid disclosing their fishing locations.
+        - note: Since 1990 government-established annual caps on halibut mortality for hook-and-line cod fisheries and ‘‘other’’ (turbot) fisheries in the Bering Sea and Aleutian Islands and cod fisheries in the Gulf of Alaska have been in place. Reaching any of these thresholds results in closure of all hook-and-line fishing for those species and areas for the remainder of the year. There is also an annual cap on the number of Short-tailed Albatrosses (Phoebastria albatrus) than can be captured by the Alaska demersal longline fleet. If this threshold is exceeded, the fleet could be subject to additional restrictions and possibly closure.
+        - note: during a period of seven years when about ten boats did not participate in the fleet communication program, the average halibut bycatch rates of non-participating boats were 10–30% higher than participating vessels, supporting the inference that the fleet communication program contributed to reducing halibut bycatch for participating vessels.
+        - note: Many captains and vessel owners expressed surprise when they first were informed about their boat’s seabird bycatch levels, and most of these vessels subsequently reduced their seabird bycatch rates.
+        - note: The open-access fishery lasted 193 days in 2003, making the average daily value of the fishery more than US $350,000. Fisheries Information Services charges the fleet US $60 per observed vessel per week.
+  - Trawl Fishery:
+      tags:
+        - Alaska Trawl Fisheries
+        - Alaska Pollock
+        - Pacific cod
+        - Bering sea rock sole 
+        - bering sea yellowfin sole 
+        - atka mackerel
+        - pacific whiting (hake)
+        - scallops
+        - chum salmon
+        - chinook salmon
+        - pacific halibut
+        - crab
+        - rockfish
+        - otter Trawl
+        - North pacific 
+        - bycatch mitigation fleet communication
+      notes:
+        - note: In 1994, the US Washington, Oregon, and Alaska trawl fisheries, which target Alaska Pollock (Theragra chalcogramma), Pacific cod, Bering Sea Rock Sole (Lepidopsetta bilineata), Bering Sea Yellowfin Sole (Limanda aspera), Atka mackerel (Pleurogrammus monopterygius), Pacific whiting (hake) (Merluccius productus), and scallops (Placopecten magellanicus), voluntarily hired a private company, Sea State, Inc., to establish and manage a fleet communication program. The fleet communication protocol aims to reduce the bycatch of chum (Oncorhynchus keta) and chinook salmon (Oncorhynchus tshawytscha) in pollock fisheries; halibut in flatfish and cod fisheries; several species of crab in flatfish, cod and scallop fisheries; and several species of rockfish in pollock, mackerel and whiting fisheries.
+        - note: Sea State analyzes the bycatch data to produce maps, tables, commentary, and other products providing information on the location of bycatch hotspots, and sends these products daily, usually via e-mail, to the fleet.
+        - note: Most coastal catcher vessels, which cannot receive email attachments, receive copies of the Sea State materials when they are in port. These coastal vessels’ trip lengths are relatively short, lasting 1–3 days, so the bycatch information is still pertinent when they receive it.
+        - note: The flatfish and scallop fisheries face seasonal area closures if halibut or crab bycatch caps are reached. Mackerel fisheries face seasonal closure if rockfish bycatch limits are exceeded.
+          tags:
+            - us west coast flatfish fishery
+            - us west coast scallop fishery
+        - note: Some of the fleets, such as the trawl pollock fishery, have formal elaborate agreements in place between the individual vessels related to the operation of the fleet communication program.
+        - note: If, for example, crab bycatch rates are above three crabs per metric ton of fish, then the fleet has agreed to move south of 56 degrees N. latitude in the winter rock sole fishery.
+          tags:
+            - us west coast crab fishery
+        - note: No formal evaluation of the effectiveness of the Sea State-managed fleet communication programs has been conducted
+        - note: The fleet communication program has likely enabled the fleets to operate days and perhaps weeks longer in some years. Fuel costs alone mount into the millions of dollars in the pollock fishery, so avoiding time and area closures, which would increase distances from port to fishing grounds, is economically important.
+        - note: Sea State charges an average of $2,000 per year per boat for participation in the fleet communication program. Participating vessels are required to use VMS and e-mail regularly, so additional communication costs from participating in the Sea State program are nominal. The cost per vessel to transmit observer data is roughly estimated to be US $200 per year.

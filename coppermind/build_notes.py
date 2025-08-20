@@ -1,7 +1,9 @@
 import os
 import sys
+import json
 from collections import Counter
 from hashlib import sha256
+from collections import defaultdict
 
 import yaml
 import numpy as np
@@ -118,20 +120,36 @@ def add_tags(note, tags):
 
 
 def add_tags_full(notes, tags):
-    bad_tags = set()
+    bad_tags = defaultdict(set)
     for note in notes:
         for bad_tag in add_tags(note, tags):
-            bad_tags.add(bad_tag)
-    assert not bad_tags, f"Missing from tags: {sorted(bad_tags)}"
+            print(note.text)
+            bad_tags[bad_tag].add(note.name)
+    for tag, names in bad_tags.items():
+        print(f"New tag: {tag} found in {sorted(names)}")
+    assert not bad_tags
+
+
+def map_tags(notes, tag_map):
+    for note in notes:
+        new_tags = set()
+        for tag in note.tags:
+            new_tags.add(tag_map.get(tag, tag).lower())
+        note.tags = new_tags
 
 
 if __name__ == "__main__":
 
-    query_tags = set([tag.strip().lower() for tag in sys.argv[1].split(",")])
+    print(f"Using tag map at: {sys.argv[1]}")
+    with open(sys.argv[1], "r") as file:
+        tag_map = json.load(file)
     tags = pull_tags()
 
-    missing = query_tags - set(tags)
-    assert not missing, f"Tags queried but not found: {sorted(missing)}"
+    query_tags = None
+    if len(sys.argv) > 2:
+        query_tags = set([tag.strip().lower() for tag in sys.argv[2].split(",")])
+        missing = query_tags - set(tags)
+        assert not missing, f"Tags queried but not found: {sorted(missing)}"
 
     notes = []
     for file in os.listdir("./notes"):
@@ -141,10 +159,13 @@ if __name__ == "__main__":
             notes.extend(list(parse_notes(data["notes"], [], data["name"])))
     print(len(notes))
 
+    map_tags(notes, tag_map)
+
     add_tags_full(notes, tags)
 
-    notes = [note for note in notes if set(note.tags) & query_tags == query_tags]
-    print(len(notes))
+    if query_tags:
+        notes = [note for note in notes if set(note.tags) & query_tags == query_tags]
+        print(len(notes))
 
     tree = {"my notes": notes}
     build_tree(tree, "my notes", set(), 3)

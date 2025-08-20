@@ -2,7 +2,10 @@
     "Climate change": {},
     "Bycatch": {
         "Bycatch mitigation": {
-            "voluntary mitigation": {}
+            "voluntary mitigation": {},
+            "bycatch mitigation closures": {},
+            "bycatch excluders": {},
+            "bycatch mitigation fleet communication": {}
         }
     },
     "Pacific marine heatwave": {},
@@ -18,5 +21,6 @@
     "Cooperation": {},
     "Data driven fisheries": {},
     "Selectivity": {},
-    "Quota management": {}
+    "Quota management": {},
+    "threatened species": {}
 }

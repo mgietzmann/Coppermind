@@ -1,7 +1,9 @@
 {
     "Models": {
         "model distributions": {},
-        "model features": {}
+        "model features": {},
+        "overfitting": {},
+        "class bias": {}
     },
     "Genetics": {
         "Microsatellites": {}
@@ -10,10 +12,14 @@
     "Meta-analyses": {},
     "otter trawl modification testing": {},
     "electronic tags": {
+        "psats": {
+            "psat placement": {}
+        },
         "archival tags": {
             "archival tag placement": {}
         },
         "measuring temperature": {},
         "data compression": {}
-    }
+    },
+    "CPUE": {}
 }

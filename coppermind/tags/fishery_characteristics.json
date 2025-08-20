@@ -1,6 +1,10 @@
 {
     "Fleet": {
-        "Fleet size": {}
+        "Fleet size": {},
+        "Fleet speed": {}
     },
-    "Valuation": {}
+    "Valuation": {},
+    "management": {
+        "international management": {}
+    }
 }

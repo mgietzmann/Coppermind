@@ -1,0 +1,69 @@
+name: Gauvin 2016
+citation: Bering Sea Salmon Excluder EFP 15-01 Final Report John Gauvin
+notes:
+  - note: Escapement rates of salmon and pollock were generated from video observations of fish escapes.
+    tags:
+      - otter trawl modification testing
+      - bycatch mitigation excluders
+  - note: The second problem related to the reliance on camera systems as the only means to track escapement for this EFP. In making the move to use cameras alone, NPFRF understood that it might have to accept gaps in escapement data from mechanical failures and deployment errors even if its project managers had considerable experience with underwater cameras systems.
+    tags:
+      - otter trawl modification testing
+  - note: To evaluate shaping standardization, instead of relative visual distance between the excluder panels, the degree to which they come together could be measured with lasers designed to do standardized length/distance measurements.
+    tags:
+      - otter trawl modification testing
+  - Overall:
+      tags:
+        - bycatch mitigation excluders
+        - North Pacific Pollock Fishery 
+        - Chinook salmon
+        - alaska pollock
+        - otter trawls
+        - otter trawl zone 4
+      notes:
+        - note: The development of salmon excluders started in 2003.
+        - note: The process to come up with designs for salmon excluders started with ideas from fishermen and net manufacturers discussed at workshops held by NPFRF.
+        - note: NPFRF’s switch to tracking escapement with video alone, almost a decade later, was made possible by improvements in the capacity and reliability of the camera systems so that deployments could be done without putting limitations on fishing practices.
+        - note: While results with the flapper excluder were encouraging, a concern from tests done in EFP 11-01 was that Chinook escapement rates were quite variable on a tow-by-tow basis within individual seasonal tests.
+        - note: Adding light to attract chums to swim out of the excluder, however, proved to be more challenging than expected. One issue was the inability to contain the light in the locations where lights were installed. In fact the illumination tended to bleed down into portions of the net intermediate ahead of the excluder where escapement was actually not possible.
+        - note: As can be seen from Figure 5, average rates of escapement with the O/U were generally higher than rates seen in the Bering Sea (for Chinook and chum) .
+        - note: Specifically, horsepower ratings for the GOA vessels were 800 and 1,300 HP and towing speeds in the range of 2.5 to 3.0 knots in the GOA pollock fishery. This is different from Bering Sea pollock vessels that tow at speeds ranging from 3.0 to 4.2 knots, with average speeds closer to four knots than three. Also, net spread is greater in the Bering Sea with more efficient trawl doors and larger horsepower boats.
+          tags:
+            - fleet speed
+        - note: From this we can hypothesize that the more variable speed is within a tow the greater the potential that salmon escapement will occur.
+        - note: One idea we considered to potentially explain the differences between GOA and Bering Sea results was that for the same species (Chinook is really the only GOA species encountered), size distribution of the salmon encountered in the EFP might be related to escapement performance differences.
+        - note: Without a systematic way to measure salmon in video footage, however we can only report that salmon escapements appear to resemble salmon that did not escape as a qualified guess.
+          tags:
+            - otter trawl modification testing
+        - note: One last possible explanation that was considered was the possibility that pollock catch rates could affect salmon escapement rates. Catch per hour of towing was examined to see if, for example, Bering Sea catch rates differed significantly from GOA rates.
+        - note: Alternatively, they thought it is probably really about the relative amount of congestion that occurs when a salmon is trying to find its way out
+        - note: To really understand how pollock moving back and flowing through a net might affect salmon escapement, fishermen suggested that a recording echo-sounder would need to be installed in the intermediate where the excluder is located.
+          tags:
+            - otter trawl modification testing
+        - note: In thinking about setting up such a challenge, it would be important to note that are surely limits on the degree to which Bering Sea pollock gear and the way it is fished can be modified and still catch pollock efficiently
+  - GOA:
+      tags:
+        - bycatch mitigation excluders
+        - GOA Pollock Fishery 
+        - Chinook salmon
+        - alaska pollock
+        - otter trawls
+        - otter trawl zone 4
+      notes:
+        - note: The impetus to focus on this particular excluder was that it achieved 33%-54% escapement for Chinook salmon with 1-9% Pollock escapement in the Cen tral Gulf of Alaska (GOA) EFP during trials in 2013 and 2014.
+        - note: this new excluder has been largely embraced as the excluder to use by GOA Pollock captains and many feel it provides advantages over other designs in terms of adaptability into GOA Pollock nets and lower need for tuning to achieve the desired shape at normal towing speeds.
+  - EBS:
+      tags:
+        - bycatch mitigation excluders
+        - EBS Pollock Fishery 
+        - Chinook salmon
+        - alaska pollock
+        - otter trawls
+        - otter trawl zone 4
+      notes:
+        - note: This might indicate that with faster towing speeds (bigger nets, higher volume of flow of fish through the net) escapement for salmon or pollock is simply going to occur at lower rates
+        - note: Whereas overall pollock escapement was negligible (0.5-2.2%), salmon escapement rates ranged from 3-18% across the three vessels.
+        - note: more enigmatic was the finding that performance results did not follow expectations based on horsepower and towing differences between Bering Sea vessels in the EFP as well.
+        - note: Differences in Pollock catch rates and flow of fish through the net that may create congestion and difficulty for salmon to find/utilize the escapement pathways may also be important for explaining the differences between GOA and Bering Sea results.
+        - note: The Northern Jaeger’s hope that salmon escapement would be better with their flapper device unfortunately did not pan out from the testing done in the EFP. The result for that test was a mean salmon escapement of 8.9% (95% confidence interval from 6-12%) with slightly higher nominal Pollock escapement rates than the boat had in the first two O/U tests.
+
+

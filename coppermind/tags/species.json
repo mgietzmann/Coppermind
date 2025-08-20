@@ -16,43 +16,16 @@
                     "Somateria mollissima": "Common eider"
                 }
             }
-        }
+        },
+        "Procellariiformes": {},
+        "Diomedeidae": {},
+        "seabirds": {}
     },
-    "Actinopterygii": {
-        "Gadiformes": {
-            "Merlucciidae": {
-                "Merluccius": {
-                    "Merluccius productus": "North Pacific hake"
-                }
-            }
-        },
-        "Salmoniformes": {
-            "Salmonidae": {
-                "Coregonus": {
-                    "Coregonus clupeaformis": "Lake whitefish"
-                },
-                "Salvelinus": {
-                    "Salvelinus namaycush": "Lake trout"
-                },
-                "Oncorhynchus": {
-                    "Oncorhynchus tshawytscha": "Chinook salmon",
-                    "Oncorhynchus keta": "Chum salmon"
-                },
-                "Salmo": {
-                    "Salmo salar": "Atlantic salmon"
-                }
-            }
-        },
-        "Perciformes": {
-            "Cyclopteridae": {
-                "Cyclopterus": {
-                    "Cyclopterus lumpus": "Lumpfish"
-                }
-            }
-        },
-        "Carangiformes": {
-            "Pleuronectoidei": {}
-        }
+    "Bivalvia": {
+        "Pectinidae": {}
+    },
+    "Malacostraca": {
+        "Decapoda": {}
     },
     "Mammalia": {
         "Artiodactyla": {
@@ -68,6 +41,184 @@
             "Petromyzontidae": {
                 "Petromyzon": {
                     "Petromyzon marinus": "Sea lamprey"
+                }
+            }
+        }
+    },
+    "Reptilia": {
+        "Testudines": {
+            "Chelonioidea": {
+                "Caretta": {
+                    "Caretta caretta": "loggerhead turtles"
+                },
+                "Dermochelys": {
+                    "Dermochelys coriacea": "leatherback turtles"
+                }
+            }
+        }
+    },
+    "fish": {
+        "Chondrichthyes": {
+            "Carcharhiniformes": {
+                "Carcharhinidae": {
+                    "Carcharhinus": {
+                        "Carcharhinus falciformis": "silky shark"
+                    }
+                },
+                "Galeocerdonidae": {
+                    "Galeocerdo": {
+                        "Galeocerdo cuvier": "tiger shark"
+                    }
+                }
+            },
+            "Lamniformes": {
+                "Alopiidae": {
+                    "Alopias": {
+                        "Alopias superciliosus": "bigeye thresher shark"
+                    }
+                }
+            },
+            "Batomorphi": {}
+        },
+        "Actinopterygii": {
+            "Aulopiformes": {
+                "Alepisauridae": {
+                    "Alepisaurus": {}
+                }
+            },
+            "Carangiformes": {
+                "Xiphiidae": {
+                    "Xiphias": {
+                        "Xiphias gladius": "swordfish"
+                    }
+                },
+                "Pleuronectoidei": {
+                    "Soleidae": {
+                        "Solea": {
+                            "Solea solea": "dover sole"
+                        }
+                    },
+                    "Pleuronectidae": {
+                        "Lepidopsetta": {
+                            "Lepidopsetta bilineata": "rock sole"
+                        },
+                        "Limanda": {
+                            "Limanda aspera": "yellowfin sole"
+                        },
+                        "Reinhardtius": {
+                            "Reinhardtius hippoglossoides": "greenland halibut"
+                        },
+                        "Hippoglossus": {
+                            "Hippoglossus stenolepis": "pacific halibut"
+                        }
+                    }
+                },
+                "Coryphaenidae": {
+                    "Coryphaena": {
+                        "Coryphaena hippurus": "mahi mahi"
+                    }
+                },
+                "Istiophoridae": {
+                    "Kajikia": {
+                        "Kajikia albida": "white marlin"
+                    },
+                    "Makaira": {
+                        "Makaira nigricans": "blue marlin"
+                    }
+                }
+            },
+            "Clupeiformes": {
+                "Clupeidae": {
+                    "Clupea": {
+                        "Clupea pallasii": "pacific herring"
+                    }
+                }
+            },
+            "Gadiformes": {
+                "Merlucciidae": {
+                    "Merluccius": {
+                        "Merluccius productus": "North Pacific hake"
+                    }
+                },
+                "Gadidae": {
+                    "Mlanogrammus": {
+                        "Melanogrammus aeglefinus": "haddock"
+                    },
+                    "Gadus": {
+                        "gadus morhua": "atlantic cod",
+                        "Gadus chalcogrammus": "walleye pollock",
+                        "Gadus macrocephalus": "pacific cod"
+                    }
+                }
+            },
+            "Salmoniformes": {
+                "Salmonidae": {
+                    "Coregonus": {
+                        "Coregonus clupeaformis": "Lake whitefish"
+                    },
+                    "Salvelinus": {
+                        "Salvelinus namaycush": "Lake trout"
+                    },
+                    "Oncorhynchus": {
+                        "Oncorhynchus tshawytscha": "Chinook salmon",
+                        "Oncorhynchus keta": "Chum salmon"
+                    },
+                    "Salmo": {
+                        "Salmo salar": "Atlantic salmon"
+                    }
+                }
+            },
+            "Scombriformes": {
+                "Scombridae": {
+                    "Acanthocybium": {
+                        "Acanthocybium solandri": "wahoo"
+                    },
+                    "Katsuwonus": {
+                        "Katsuwonus pelamis": "skipjack tuna"
+                    },
+                    "Thunnus": {
+                        "Thunnus albacares": "yellowfin tuna",
+                        "Thunnus atlanticus": "blackfin tuna",
+                        "Thunnus obesus": "bigeye tuna"
+                    }
+                },
+                "Gempylidae": {
+                    "Ruvettus": {
+                        "Ruvettus pretiosus": "oilfish"
+                    },
+                    "Lepidocybium": {
+                        "Lepidocybium flavobrunneum": "escolar"
+                    }
+                },
+                "Bramidae": {}
+            },
+            "Perciformes": {
+                "Cyclopteridae": {
+                    "Cyclopterus": {
+                        "Cyclopterus lumpus": "Lumpfish"
+                    }
+                },
+                "Scorpaenidae": {
+                    "Sebastes": {
+                        "Sebastes jordani": "shortbelly rockfish"
+                    }
+                },
+                "Hexagrammidae": {
+                    "Pleurogrammus": {
+                        "Pleurogrammus monopterygius": "atka mackerel"
+                    }
+                },
+                "Anoplopomatidae": {
+                    "Anoplopoma": {
+                        "Anoplopoma fimbria": "sablefish"
+                    }
+                }
+            },
+            "Osmeriformes": {
+                "Osmeridae": {
+                    "Thaleichthys": {
+                        "Thaleichthys pacificus": "eulachon"
+                    }
                 }
             }
         }

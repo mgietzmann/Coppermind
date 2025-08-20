@@ -1,0 +1,86 @@
+name: Lomeli 2019
+citation: Lomeli, M. J. M., & Wakefield, W. W. (2019). The effect of artificial illumination on Chinook salmon behavior and their escapement out of a midwater trawl bycatch reduction device. Fisheries Research, 218, 112–119. https://doi.org/10.1016/j.fishres.2019.04.013
+notes:
+  - note: Along the U.S. West Coast there are 17 Evolutionarily Significant Units (ESUs) identified for Chinook salmon (Oncorhynchus tshawytscha). Of these ESUs, two are listed as “endangered” and seven as “threatened” under the U.S. Endangered Species Act (ESA)
+    tags:
+      - chinook salmon
+      - threatened species
+      - US West Coast
+  - note: If this bycatch threshold is exceeded, then conservation measures such as the Ocean Salmon Conservation Zone (OSCZ) may be implemented. The OSCZ is a zone shoreward of a boundary line that approximates the 183 m (100 fathom) depth contour where Pacific hake fishing vessels are prohibited from trawling.
+    tags:
+      - bycatch mitigation closures
+      - chinook salmon 
+      - pacific coast hake fishery
+      - US west coast
+      - otter trawls
+  - note: In the ocean shrimp (Pandalus jordani) trawl fishery, researchers have placed LEDs along trawl fishing lines to illuminate open spaces between the fishing line and groundline, and observed significant catch reductions for eulachon (Thaleichthys pacificus), juvenile rockfishes (Sebastes spp.), and flatfishes without impacting ocean shrimp catches
+    tags:
+      - bycatch mitigation excluders
+      - ocean shrimp trawl fishery
+      - eulachon
+      - rockfish
+      - flatfish
+      - ocean shrimp
+      - otter trawls
+      - otter trawl zone 1
+  - note: Comparing an unilluminated trawl to a trawl with an illuminated headrope in the U.S. West Coast groundfish bottom trawl fishery, Lomeli et al. (2018b) found that the illuminated trawl caught significantly fewer sablefish (Anoplopoma fimbria) and Dover sole
+    tags:
+      - us west coast
+      - us west coast groundfish bottom trawl fishery 
+      - otter trawl zone 2
+      - sablefish
+      - dover sole
+      - bycatch mitigation excluders
+  - note: For example, in the Barents Sea demersal trawl fishery, Grimaldo et al. (2018) positioned LEDs on lines with floats in the center of a square mesh section (creating a moving effect of the stimuli and a physical barrier) in efforts to improve the release efficiency for smallersized cod (Gadus morhua) and haddock (Melanogrammus aeglefinus) by startling them towards the square mesh netting
+    tags:
+      - barents sea
+      - barents sea demersal trawl fishery 
+      - haddock
+      - gadus morhua
+      - bycatch mitigation excluders
+  - note: An example where fish responded to artificial illumination stimuli, but were unable to escape as a result of the size of the escape opening occurred in the Grimaldo et al. (2018) study. In their research, they were able to direct haddock towards panels of square mesh netting using artificial illumination. However, haddock responded to the stimuli in an erratic behavior and upon contacting the netting they were positioned in an orientation that prevented escapement through the meshes.
+    tags:
+      - barents sea
+      - barents sea demersal trawl fishery 
+      - haddock
+      - gadus morhua
+      - bycatch mitigation excluders
+  - note: We used a video camera system at each escape window to observe fish behavior and escapement. Because the LEDs alone could not provide enough illumination for the cameras to produce an image of useable quality for identifying fish, we integrated a DeepSea Power and Light nano Sealite® white LED (color temperature = 6500–8000 K; lumens = 700; beam pattern 70° flood) with each camera system to obtain video of suitable quality. Each camera system was mounted on an ultra-high-molecular-weight board
+    tags:
+      - otter trawl modification testing
+  - note: A one proportion Z test was used to examine whether the proportion of Chinook salmon to exit out an illuminated escape window was significantly greater than the proportion of Chinook salmon to exit out a non-illuminated escape window
+    tags:
+      - otter trawl modification testing
+  - note: A Student’s t-test was used to 1) examine whether the proportion of Chinook salmon to exit the BRD when artificial illumination was present was significantly greater than the proportion of Chinook salmon to exit the BRD when artificial illumination was absent, and 2) analyze the Chinook salmon length data and rockfish weight data.
+    tags:
+      - otter trawl modification testing
+
+  - The Excluder:
+      tags:
+        - bycatch mitigation excluders
+        - chinook salmon 
+        - pacific coast hake fishery
+        - US west coast
+        - otter trawls
+        - otter trawl zone 4
+      notes:
+        - note: BRD design consisted of two Ultra Cross knotless square mesh netting ramps of 108 mm center-to-center nominal mesh size (800 ply) that were inserted inside the BRD tube of netting. The square mesh ramps are designed to guide actively swimming fish toward two large sets of escape windows cut out of each side of the net on the upper portions of the port and starboard side panels
+        - note: When testing this BRD design in the absence of artificial illumination, the mean escapement of Pacific hake was found to be < 2% by weight (Table 1). Under conditions where this BRD design was tested in the presence of illumination, video observations showed Pacific hake rarely escaped
+        - note: Lindgren-Pitman Electralume® blue LED fishing lights, wavelength centered on 464 nm (Nguyen et al., 2017), were used as the artificial light source. Blue colored LEDs were selected as this wavelength transmits the furthest in water and the predominant spectral component of coastal and continental shelf waters in this region is blue-green light
+        - note: We observed 438 Chinook salmon, of which 299 individuals escaped (68.3%, 95% confidence interval [CI] = 63.8–72.4%). Of the 299 Chinook salmon to escape, 243 individuals exited out a window that was illuminated (81.3%, 95% CI = 76.5–85.3%)
+          tags:
+            - behavior
+        - note: Chinook salmon exhibited various behaviors while encountering the BRD. For example, some individuals would enter the BRD and immediately burst towards and out an illuminated window and continue to swim away from the trawl, whereas others would gradually move towards and out an illumination window then swim alongside the trawl (one individual was noted to swim alongside the trawl for ca. 10 min.)
+          tags:
+             - behavior
+        - note: When in the BRD area, Pacific herring and shortbelly rockfish would usually swim upwards and school near the top panel of the net until haulback, at which time they would exit out the BRD in large numbers. 
+          tags:
+            - behavior 
+            - pacific herring
+            - shortbelly rockfish
+        - note: Overall, the proportion of Chinook salmon to exit the BRD when artificial illumination was present was significantly greater (p = 0.0362) than the proportion to exit the BRD when artificial illumination was absent.
+          tags:
+            - behavior
+        - note: How Chinook salmon perceive and interact with this BRD under conditions when artificial illumination is absent is unclear. Further research using imaging sonar equipment such as ARIS (Adaptive Resolution Imaging Sonar) or DIDSON (DualFrequency Identification Sonar) to observe how Chinook salmon interact with this BRD under dark conditions could provide insights that could help improve our knowledge of what makes artificial illumination affective at reducing their bycatch.
+          tags:
+            - behavior

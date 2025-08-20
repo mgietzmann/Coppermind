@@ -1,0 +1,104 @@
+name: Yochum 2021
+citation: Yochum, N., Stone, M., Breddermann, K., Berejikian, B. A., Gauvin, J. R., & Irvine, D. J. (2021). Evaluating the role of bycatch reduction device design and fish behavior on Pacific salmon (Oncorhynchus spp.) escapement rates from a pelagic trawl. Fisheries Research, 236, 105830. https://doi.org/10.1016/j.fishres.2020.105830
+notes:
+  - note: to avoidexceeding Chinook PSC allowances, fishermen target grounds when and where co-occurrence of Chinook salmon with pollock is comparatively infrequent
+    tags:
+      - north pacific trawl fisheries 
+      - chinook salmon
+      - alaska pollock
+      - horizontal distribution
+      - vertical distribution
+      - bycatch mitigation
+  - note: chum are most prevalent during ‘B’ season, while Chinook are most prevalent during the winter, ‘A’, season;
+    tags:
+      - north pacific trawl fisheries 
+      - chinook salmon
+      - chum salmon
+      - alaska pollock
+      - horizontal distribution
+      - vertical distribution
+      - bycatch mitigation
+  - note: Concern for chum salmon (O. keta) bycatch, while not PSC, also causes fishermen to adjust how they target pollock
+    tags:
+      - north pacific trawl fisheries
+      - chum salmon
+      - alaska pollock
+      - horizontal distribution
+      - vertical distribution
+      - bycatch mitigation
+  - note: Since 2002, members of the fishing and conservation engineering communities have worked to develop and improve upon bycatch reduction device (BRD) designs that permit salmon to escape from the trawl before they are landed on the vessel
+    tags:
+      - bycatch mitigation excluders
+      - salmon 
+      - otter trawl
+      - North pacific trawl fisheries
+  - note: Manipulation of water flow in and around BRDs is an establishedpractice for trying to increase escapement of non-target animals
+    tags:
+      - behavior
+      - bycatch mitigation excluders
+      - otter trawls
+  - note: It has potentialfor salmon given that they can react to changes in water velocity less than 3 cm/s and are attracted to or deterred from an area based on water velocity
+    tags:
+      - salmon
+      - behavior
+  - note: optomotor response, the tendency of fish to follow the real or apparent relative motion of their surroundings
+    tags:
+      - fish
+      - behavior
+  - note: A Reynolds Averaged Navier-Stokes (RANS) flow solver was applied to investigate the flow field in and around the initial excluder concept.
+    tags:
+      - bycatch mitigation
+      - otter trawl modification testing
+  - note: In March 2019, we tested the modeled excluder design at 1:2 scalein an 8-m wide × 4-m deep × 22.25 m long flume tank at the Fisheries and Marine Institute of Memorial University of Newfoundland
+    tags:
+      - bycatch mitigation
+      - otter trawl modification testing
+  - note: June 2019, during the ‘B’ season (summer/fall) Bering Sea pollock fishery, we tested a full-scale version of the RT &F excluder design (Fig. 4) that resultedfrom the fluid dynamics simulations and flume tank testing.
+    tags:
+      - bycatch mitigation
+      - otter trawl modification testing
+      - north pacific pollock fishery
+  - note: Pollock and salmon were observed using video from low-light cameras (Sexton, https://www.thesextonco.com/) placed strategically in the excluder, with the field of view illuminated by integrated LED lighting. We tested white and far red (peak at 730 nm) LED lights given that detection of the latter is limited in adult Chinook salmon in their marine residence
+    tags:
+      - bycatch mitigation
+      - otter trawl modification testing
+      - north pacific pollock fishery
+      - chinook salmon
+      - chum salmon
+      - alaska pollock
+  - note: Video reviewers underwent extensive identification training, and if a fish resembled a salmon, but the identification could not be made with certainty, it was not counted.
+    tags:
+      - bycatch mitigation
+      - otter trawl modification testing
+  - Excluders:
+      tags:
+        - bycatch mitigation excluders
+        - North pacific pollock fishery
+        - otter trawl
+        - salmon 
+      notes:
+        - note: Several salmon excluder designs have been tested in the pollock fishery over the past two decades; however, salmon escapement rates have been highly variable by species, fishery (Bering Sea vs. Gulf of Alaska), among designs, and, by design, among trips and tows
+        - note: The original excluder design to address salmon bycatch in this fishery included escape portals above a square-mesh tapered tunnel in the intermediate section of the trawl (between the net and codend), requiring salmon to access the escape portals by swimming forward, in the direction of tow, and up. Results from testing this design in the Bering Sea supported the hypothesis, posed by Rose (2004), that behavioral differences and the greater swimming ability of salmon (both Chinook and chum salmon) compared with pollock, despite some morphological similarities, were fundamental to the efficacy of the salmon excluder (Gauvin and Paine, 2004; Gauvin and Gruver, 2008).
+          tags:
+            - behavior
+        - note: While improvements to excluder designs have been made, a mechanistic understanding of why escapement rates remain so variable is lacking.
+        - note: The RT&F design was based on the theorythat the fast towingspeeds used in the pollock fishery relative to salmon cruising speeds (approximately 1.2 m/s for larger salmon; Bell, 1991) are a limiting factor to increased escapement. This is evidenced by higher escapement rates on vessels towing at lower speeds.
+          tags: 
+            - behavior
+        - note: escapement for the same excluder design towed at speeds of 1.5–2.2 m/s in the Bering Sea ranged from 3 to 18% (mean of 11 %; all tows combined by vessel-year-season combination), compared to trials in the Gulf of Alaska towing at slower speeds (1.3–1.5 m/s) in which escapement ranged from 34 to 54%
+          tags:
+            - behavior
+        - note: The broad design concept for the RT&F excluder was to split the net at the last tapered section (at a break in the riblines) and attach a diamond mesh funnel encircled by a rope tube (Fig. 2). At the start of the funnel, a straight section of diamond mesh would be attached to the outside, creating a ‘sleeve’.
+          tags:
+            - otter trawl zone 4
+        - note: Without that tow included, average escapement rates ranged from 0.38 to 0.83, and the overall average was 0.58 (± 0.18).
+        - note: Despite uncertainty around our ability to manipulate water flow at sea, the design exceeded the highest reported escapement rate for salmon excluders by trip for previousdesigns
+        - note: The sample size was not sufficient to evaluate the influence of fishing variables (e.g., tow duration, tow speed over ground, fishing depth, time of day) on salmon escapement rates, and the towsdid not represent the breadth of conditions experienced in this fishery
+          tags:
+            - otter trawl modification testing
+        - note: While the RT &F excluder design showed promise and catch was similar to vessels fishing nearby, there was no quantification of target species (i.e., pollock) loss, an important metric for measuring excluder ‘success’ and encouraging industry use. For previous excluder designs, pollock escapement, by weight, was less than2% on average,1 %–9.8 % by study and 0 %–18 % by tow. n an evaluation of the earliest salmon excluder design that resulted in 12–20 % salmon escapement, 2–3 % of pollockloss was considereda justifiable tradeoff to queried pollock captains
+        - note: For example, if salmon definitively have higher escapement during haulback and turns, as suggested in this and previous excluder trials (Gauvin et al., 2015), more research is needed to determine what is driving this phenomenon.
+          tags:
+            - behavior
+        
+  
