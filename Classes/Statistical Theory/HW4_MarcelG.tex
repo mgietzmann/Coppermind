@@ -1,0 +1,143 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[super]{nth}
+\usepackage{amsthm}
+\usepackage{bm}
+\newtheorem{theorem}{Theorem}
+\newtheorem{objective}{Objective}
+\newtheorem{model}{Model}
+\usepackage{xcolor}
+\definecolor{light-gray}{gray}{0.95}
+\newcommand{\code}[1]{\colorbox{light-gray}{\texttt{#1}}}
+\usepackage{listings}
+\usepackage{placeins}
+\usepackage{enumitem}
+\usepackage[T1]{fontenc}
+
+\usepackage[authoryear]{natbib}
+
+\lstset{language=R}
+
+
+\makeatletter
+\renewcommand{\maketitle}{
+\begin{center}
+
+\pagestyle{empty}
+
+{\Large \bf \@title\par}
+\vspace{1cm}
+
+{\LARGE Marcel Gietzmann-Sanders}\\[1cm]
+
+STAT651 - Statistical Theory I \\
+University of Alaska Fairbanks
+
+
+\end{center}
+}\makeatother
+
+
+\title{Homework 4}
+
+\date{2025}
+\setcounter{tocdepth}{2}
+\begin{document}
+\maketitle
+
+\section{Question 1}
+
+\subsection{a}
+$P(A|B)=P(A \cap B) / P(B)$, given $P(A \cap B) \leq P(B)$ it follows that $P(A|B) \leq P(B)/P(B) = 1$. 
+
+\subsection{b}
+If $A_1 \subset A_2$ then $A_1 \cap B \subset A_2 \cap B$. The probability of a subset is less than or equal to the probability of the full set therefore $P(A_1 \cap B) \leq P(A_2 \cap B)$. It follows by the definition of conditional probability that $P(A_1 | B) \leq P(A_2 |B)$.
+
+\subsection{c}
+If $A_1$ and $A_2$ are disjoint then $A_1 \cap A_2 = \emptyset$. Given we can group intersections however we like: $(A_1 \cap B) \cap (A_2 \cap B) = B \cap B \cap (A_1 \cap A_2) = \emptyset$ i.e., $A_2 \cap B$ and $A_1 \cap B$ are disjoint. Therefore as we've shown previously $P((A_2 \cap B) \cup (A_1 \cap B))= P(A_2 \cap B) + P(A_1 \cap B)$. However it is also true that $(A_2 \cap B) \cup (A_1 \cap B) = (A_1 \cup A_2) \cap B$. So $P((A_1 \cup A_2) \cap B) = P(A_2 \cap B) + P(A_1 \cap B)$. It follows by dividing through by $P(B)$ that $P(A_1 \cup A_2 | B) = P(A_1 | B) + P(A_2 | B)$. 
+
+\section{Question 2}
+
+\begin{enumerate}[label=\alph*]
+\item $P(B|C) = \frac{0.05+0.09}{0.05+0.09+0.15+0.07}\approx 0.3889$
+\item $P(C|A) = \frac{0.15+0.05}{0.15+0.05+0.1+0.21}\approx 0.3922$
+\item $P(B \cap C | A)=\frac{0.05}{0.15+0.05+0.1+0.21}\approx 0.098$
+\item $P(C|A\cup B) = \frac{0.15+0.05+0.09}{0.15+0.05+0.1+0.21+0.17+0.09} \approx 0.3766$
+\end{enumerate}
+
+\section{Question 3}
+
+\begin{enumerate}[label=\alph*]
+\item Given $A$ and $B$ are mutually exclusive, $A\cap B=\emptyset$. $P(\emptyset)=0\neq P(A)P(B)$. Therefore these events are not independent. 
+\item $P(A \cup B) = P(A)+P(B) - P(A \cap B)=P(A)+P(B)-P(A)P(B) = 5/7+3/7 - (5/7)(3/7)=41/49$. $P(A^C \cap B^C)=1-P(A \cup B)=8/49$. $P(A^C) = 1-5/7 = 2/7$ and $P(B^C)=1-3/7 = 4/7$. Therefore $P(A^C)P(B^C)=8/49=P(A^C \cap B^C)$ and so the complements of $A$ and $B$ are independent.  
+\item If $P(A \cup B) = P(A) + P(B) - P(A \cap B)=7/8=P(B)$ and in this case $P(A \cap B) = P(\emptyset) = 0$ then it follows that $P(A)=0$. Therefore $P(A \cap B)=0=P(A)P(B)$ and these two events are independent. 
+\item If $A$ and $B$ are independent then $P(A \cap B) = P(A)P(B) \rightarrow P(A) = P(A \cap B)/P(B) = (1/5)/(3/5) = 1/3$. Given $A$ and $A^C$ form a partition of $S$, $P(A^C \cap B) = P(B) - P(A \cap B) = 3/5 - 1/5 = 2/5$. $P(A^C)P(B) = (1-1/3)(3/5) = 2/5$ Therefore $A^C$ and $B$ are independent. 
+\end{enumerate}
+
+\section{Question 4}
+
+\begin{enumerate}[label=\alph*]
+\item $\lim_{x\rightarrow \infty} \tan^{-1}(x)=\pi /2$ and $\lim_{x\rightarrow -\infty} \tan^{-1}(x)=-\pi /2$. Substituting this into our $F(x)$ we get 1 and 0 respectively. So our limits are correct. $\frac{d}{dx}F(x) = \frac{1}{\pi(1 + x^2)}$ which is always positive (thanks to our $x^2$) so $F(x)$ is also monotonically increasing. Therefore this is a cdf. 
+\item As $x$ goes to $\infty$, $e^{-x}$ will go to zero and $F(x)$ will approach 1. As $x$ goes to $-\infty$, $e^{-x}$ will go to $\infty$ and therefore $F(x)$ will go to zero. Our bounds are therefore correct. $\frac{d}{dx}F(x) = \frac{e^{-x}}{(1+e^{-x})^2}$ and as $e^{-x}$ can never be negative (over real $x$) the derivative of $F(x)$ will always be positive. This means $F(x)$ is monotonically increasing with $x$. $F(x)$ is therefore a cdf. 
+\end{enumerate}
+
+\section{Question 5}
+\subsection{a}
+
+$$\int_0^{\pi/2} f(x)dx = \int_0^{\pi/2} c \cos (x)dx=c \sin (x) \Big|_0^{\pi/2}=c$$
+
+Therefore for the integral of our pdf to be one we require that $c\equiv 1$
+
+\subsection{b}
+
+$$\int_{-1}^{1} f(x)dx=\int_{-1}^{1} ce^{-|x|}dx=2\int_0^1 ce^{-x}dx=-2ce^{-x} \Big|_0^{1}=2c(1-e^{-1})=2c\frac{e-1}{e}$$
+
+We need this to integrate to 1 so:
+
+$$1=2c\frac{e-1}{e}\rightarrow c=\frac{e}{2(e-1)}$$
+
+\section{Question 6}
+
+We can have 0 - 4 heads. In all such cases once you know the number of heads you know the number of tails. In general $X=H(4-H)$, that is $X$ can take on the values of 0, 3, or 4. Overall we have $2^4=16$ possible outcomes. Only two of those outcomes result in $X=0$ (no heads or no tails). So the $P(X=0)=2/16=1/8$. In order to get $X=3$ we have to have exactly one head or exactly one tail. This is equivalent to choosing which place the head or tail will be and then choosing whether it will be a head or tail for $4(2)=8$ such outcomes. Therefore $P(X=3)=8/16=1/2$. This means that $P(X=4)=1-1/8-1/2=3/8$. $P(X=x)=0$ for all $x\notin \{0, 3, 4\}$. Our CDF is therefore $F(X) = 0$ if $X<0$, $F(X) = 1/8$ if $0\leq X<3$, $F(X) = 5/8$ if $3\leq X<4$, and $F(X) = 1$ if $X\geq 4$.
+
+\section{Question 7}
+
+\subsection{a}
+
+Our pdf is $f(x) = ae^{-ax}$ when $x\geq 0$ and $f(x) = 0$ when $x<0$. We can prove this by noting that when $x<0$ $\int_{-\infty}^x f(t)dt=0$ and when $x\geq = 0$ $\int_{-\infty}^x f(t)dt = \int_{0}^x f(t)dt = -e^{-at} |_0^{x} = 1 - e^{-ax}$. That is we recover our cdf from our $f(x)$. 
+
+\subsection{b}
+
+$$P(3 \leq X \leq 7) = F(7) - F(3) = e^{-3a}-e^{-7a}$$
+
+\subsection{c}
+
+$$P(3 \leq X \leq 7) = \int_3^7 f(t)dt = \int_3^7 ae^{-at} dt = -e^{-at}\Big|_3^{7}=e^{-3a}-e^{-7a}$$
+
+\subsection{d}
+
+$$P(-2 \leq X < 3) = \int_{-2}^3 f(t)dt$$ 
+$$ = \lim_{\epsilon \rightarrow 0^-}\int_{-2}^{\epsilon} 0dt + \lim_{\mu \rightarrow 3^-}\int_0^{\mu} ae^{-at} dt $$
+$$= \lim_{\mu \rightarrow  3^-} \left( -e^{-at}\Big|_0^{\mu} \right)=1-e^{-3a}$$
+
+\subsection{e}
+
+$P(-2 \leq X < 3) = P(-2 < X < 3)$ because a cdf has to be right continuous. 
+
+\subsection{f}
+
+
+$F(Y \geq y) = F(X \geq \sqrt{y})$ as all $x<0$ have an $F(X>x)\equiv 0$. Therefore:
+
+$$F(Y \geq y) = 1-e^{-a\sqrt{y}}$$
+
+where $y \geq 0$. $Y$ is simply not defined in the negatives as it cannot take values there. 
+
+
+
+
+\end{document}
