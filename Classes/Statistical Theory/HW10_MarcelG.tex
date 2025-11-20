@@ -1,0 +1,221 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[super]{nth}
+\usepackage{amsthm}
+\usepackage{bm}
+\newtheorem{theorem}{Theorem}
+\newtheorem{objective}{Objective}
+\newtheorem{model}{Model}
+\usepackage{xcolor}
+\definecolor{light-gray}{gray}{0.95}
+\newcommand{\code}[1]{\colorbox{light-gray}{\texttt{#1}}}
+\usepackage{listings}
+\usepackage{placeins}
+\usepackage{enumitem}
+\usepackage[T1]{fontenc}
+
+\usepackage[authoryear]{natbib}
+
+\lstset{language=R}
+
+
+\makeatletter
+\renewcommand{\maketitle}{
+\begin{center}
+
+\pagestyle{empty}
+
+{\Large \bf \@title\par}
+\vspace{1cm}
+
+{\LARGE Marcel Gietzmann-Sanders}\\[1cm]
+
+STAT651 - Statistical Theory I \\
+University of Alaska Fairbanks
+
+
+\end{center}
+}\makeatother
+
+
+\title{Homework 9}
+
+\date{2025}
+\setcounter{tocdepth}{2}
+\begin{document}
+\maketitle
+
+
+\section*{Question 1}
+
+\subsection*{a)}
+
+The function $g(x) = \sqrt{x}$ is concave and therefore:
+
+$$g(\mathbb{E}(x)) \geq \mathbb{E}(g(x))$$
+
+Therefore $g(\mathbb{E}(x))$ is an upper bound for $\mathbb{E}(g(x))$. As $\mathbb{E}(x) = 2.3(4.1) = 9.43$ our upper bound is $\sqrt{9.43} \approx 3.07$. 
+
+$$\mathbb{E}(\sqrt{x}) = \int_0^{\infty} \sqrt{x} \frac{1}{\Gamma(\alpha)\beta^{\alpha}}x^{\alpha - 1}e^{-x/\beta}dx$$
+$$=\frac{\Gamma(\alpha+0.5)\beta^{0.5}}{\Gamma(\alpha)}\int_0^{\infty} \frac{1}{\Gamma(\alpha+0.5)\beta^{\alpha + 0.5}}x^{\alpha + 0.5 - 1}e^{-x/\beta}dx$$
+$$=\frac{\Gamma(\alpha+0.5)\beta^{0.5}}{\Gamma(\alpha)}=\frac{\Gamma(2.8)\sqrt{4.1}}{\Gamma(2.3)}\approx 2.91$$
+
+\subsection*{b)}
+
+The function $g(x) = \ln{x}$ is concave and therefore:
+
+$$g(\mathbb{E}(x)) \geq \mathbb{E}(g(x))$$
+
+Therefore $g(\mathbb{E}(x))$ is an upper bound for $\mathbb{E}(g(x))$. As $\mathbb{E}(x) = 2.3(4.1) = 9.43$ our upper bound is $\ln{9.43} \approx 2.24$. 
+
+$$\mathbb{E}(\ln{x}) = \int_0^{\infty} \ln{x} \frac{1}{\Gamma(\alpha)\beta^{\alpha}}x^{\alpha - 1}e^{-x/\beta}dx$$
+
+According to wolfram alpha this is $\approx 2.01$.
+
+\section*{Question 2}
+
+\subsection*{a)}
+
+First if $Y_i = aX_i$ then:
+
+$$f_{Y_i}(y_i) = \frac{1}{\sqrt{2\pi} \sigma}e^{-y_i^2/(2a^2\sigma^2)}|1/a|$$
+
+That is $Y_i \sim \text{N}(0, a^2\sigma^2)$. \newline
+
+So $Y_1 = -\frac{X_1}{\sqrt{2}\sigma}\sim\text{N}(0, 1/2)$ and $Y_2 = \frac{X_2}{\sqrt{2}\sigma}\sim\text{N}(0, 1/2)$. Let $W=Y_1 + Y_2$. Given these are independent we can look at the product of MGF's:
+
+$$M_W(t) = M_{Y_1}(t)M_{Y_2}(t)=e^{t^2/4}e^{t^2/4}=e^{t^2/2}$$
+
+Which means that $W \sim N(0, 1)$. \newline
+
+Now $U = W^2$ so that:
+
+$$f_U(u) = \frac{1}{\sqrt{2\pi}}e^{-u/2} \frac{1}{\sqrt{u}}$$
+
+Which is exactly the pdf of a chi-squared distribution with degrees of freedom $=1$. 
+
+\subsection*{b)}
+
+
+The MGF for a $Z \sim \chi^2(k)$ distribution is $(1-2t)^{k/2}$. Therefore for a sum of independent $Z_i \sim \chi^2(k_i)$ distributions we have:
+
+$$M_{\sum_i Z_i}(t) = \prod_i (1-2t)^{k_i/2}=(1-2t)^{\sum_i k_i/2}$$
+
+That is: 
+
+$$W=\sum_i Z_i \sim \chi^2\left(\sum_i k_i\right)$$
+
+In our specific case this means that a sum of $m$ independent random variables that are each $\chi^2(1)$ distributed results in a random variable that is $\chi^2(m)$ distributed. 
+
+\subsection*{c)}
+
+Consider:
+
+$$T/(2\sigma^2)=\sum_{i=1}^{n/2}\left(\frac{X_{2n}-X_{2n-1}}{\sqrt{2}\sigma}\right)^2$$
+
+
+We already know that each of the terms in that summation are distributed as $\chi^2(1)$ from (a). Furthermore they are all independent as none of the $X_j$ are shared between the terms. Therefore we have the sum of a set of independent random variables distributed as $\chi^2(1)$ which given (b) means:
+
+$$T/(2\sigma^2)\sim \chi^2 (n/2)$$
+
+\subsection*{d)}
+
+The mean of a $\chi^2(m)$ distribution is just $m$. So in our case:
+
+$$\mathbb{E}(T) = 2\sigma^2 n/2=\sigma^2n$$
+
+\subsection*{e)}
+
+$$\mathbb{E}(W) = \mathbb{E}(T/n) = \mathbb{E}(T)/n = \sigma^2n/n = \sigma^2$$
+
+if $n>0$. Therefore $W$ is unbiased for $\sigma^2$. 
+
+
+\section*{Question 3}
+
+\subsection*{a)}
+
+This is just a $\text{Beta}(\theta + 1, 1)$ distribution. Therefore $\mathbb{E}(X)=\frac{\theta + 1}{\theta + 2}$ and $\text{Var}(X) = \frac{\theta + 1}{(\theta + 2)^2(\theta + 3)}$. From class we know that:
+
+$$\mathbb{E}(\bar{X}) = \mathbb{E}(X) = \frac{\theta + 1}{\theta + 2}$$
+
+$$\text{Var}(\bar{X}) = \text{Var}(X)/n = \frac{\theta + 1}{n(\theta + 2)^2(\theta + 3)}$$
+
+$\bar{X}$ is not unbiased for $\theta$ as $\mathbb{E}(\bar{X}) \neq \theta$. 
+
+\subsection*{b)}
+
+$$\mathbb{E}(\bar{X}) = \mathbb{E}(X) = \theta$$
+
+$$\text{Var}(\bar{X}) = \text{Var}(X)/n = \theta/n$$
+
+Here $\bar{X}$ is unbiased for $\theta$ as $\mathbb{E}(\bar{X}) = \theta$. 
+
+\subsection*{c)}
+
+Let's find $k$ real quick. 
+
+$$\int_0^2 kx(x-2)dx=k\left( x^3/3 - x^2\right)\Big|_0^2=-4k/3\rightarrow k = -3/4$$
+
+$$\mathbb{E}(\bar{X}) = \mathbb{E}(X) = \int_0^2 xkx(x-2)dx = k\left(x^4/4 - 2x^3/3 \right)\Big|_0^2=-4k/3=1$$
+
+$$\mathbb{E}(X^2) = \int_0^2 x^2kx(x-2)dx = k\left(x^5/5 - 2x^4/4 \right)\Big|_0^2=-8k/5=6/5$$
+
+$$\text{Var}(\bar{X}) = \text{Var}(X)/n = \frac{1}{n}\left(6/5 -  (1)^2\right)=\frac{1}{5n}$$
+
+\section*{Question 4}
+
+\subsection*{a)}
+
+From class we know that $\bar{X}_n \sim N(\mu_X, \sigma^2 / n)$. The exact same steps demonstrate that $\bar{Y}_m \sim N(\mu_Y, \sigma^2 / m)$. 
+
+\subsection*{b)}
+
+If $Z = \alpha U$ then we know that:
+
+$$f_Z(z) = f_U(Z/\alpha) |1/\alpha| $$
+
+Therefore: $-\bar{Y}_m \sim N(-\mu_Y, \sigma^2 /m)$. \newline
+
+
+As the $Y_i$ and $X_i$ are independent $\bar{Y}_m $ and $\bar{X}_n$ are independent as well. Therefore:
+
+$$M_{\bar{X}_n  - \bar{Y}_m}(t) = e^{\mu_X t +\sigma^2 t^2 /n}e^{-\mu_Y t +\sigma^2 t^2 /n}= e^{(\mu_X-\mu_Y) t +2\sigma^2 t^2 /n}$$
+
+Therefore $\bar{X}_n  - \bar{Y}_m \sim N(\mu_X - \mu_Y, 2\sigma^2 / n)$
+
+\subsection*{c)}
+
+From class we know that:
+
+$$\frac{(n-1)S_X^2}{\sigma^2}\sim \chi^2(n-1)$$
+$$\frac{(m-1)S_Y^2}{\sigma^2}\sim \chi^2(m-1)$$
+
+and from earlier in this homework we know the sum of two $\chi^2(q)$ independent random variables just results in a distribution that is also $\chi^2$ but with the sum of degrees of freedom. That is:
+
+$$\frac{(n-1)S_X^2}{\sigma^2} + \frac{(m-1)S_Y^2}{\sigma^2} \sim \chi^2(m + n - 2)$$
+
+
+\section*{Question 5}
+
+Let $Z=T^2$ then:
+
+$$f_Z(z) = f_T(\sqrt{z})\frac{1}{2\sqrt{z}}=k\left(1+\frac{1}{p}z\right)^{-(p+1)/2}\frac{1}{2\sqrt{z}}=\frac{k}{2}\frac{z^{1/2-1}}{(1+(1/p)z)^{(1+p)/2}}$$
+
+Which is the same functional form as $F(1,p)$. Therefore knowing that $k/2$ will result in the normalization of this function into a pdf $T^2\sim F(1,p)$. 
+
+\section*{Question 6}
+
+By definition we know that if $X\sim F(p, q)$ then there exists a $U\sim \chi^2 (p)$ and $V\sim \chi^2 (q)$ s.t.
+
+$$X=\frac{U/p}{V/q}$$
+
+so that $X\sim F(p,q)$. \newline
+
+In that case: $Y=1/X=\frac{V/q}{U/p}$. Therefore it follows that $Y\sim F(q,p)$. 
+
+\end{document}
